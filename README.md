@@ -1,9 +1,9 @@
 ![Screenshot 2023-04-14 133113](https://user-images.githubusercontent.com/95965896/231989826-da4cf2fa-a2d6-4ba9-aa37-6768401dd21d.png)
 
+![](Aspose.Words.d8afd77f-df63-475f-bc94-ec1700bdbba8.001.png)
 # Introduction-To-Data-Science-IDS-
 Welcome To My (IDS) Repository &amp; Happy Learning !
 
-﻿![](Aspose.Words.d8afd77f-df63-475f-bc94-ec1700bdbba8.001.png)
 
 Page | 1
 
@@ -47,8 +47,9 @@ The goal of data science is to discover patterns and relationships in data that 
 In today's data-driven world, data science has become a critical component of many industries and is used to solve a wide range of problems, from predicting customer behaviour to optimizing supply chain operations.
 
 **DATA SCIENCE:**
+![image](https://user-images.githubusercontent.com/95965896/234592377-22a5a22e-f5b6-4055-b7fb-75093e7b6d0d.png)
 
-![](Aspose.Words.d8afd77f-df63-475f-bc94-ec1700bdbba8.003.png)Data science is an interdisciplinary field that involves using scientific methods, algorithms, and tools to extract insights and knowledge from structured and unstructured data. It combines various fields such as statistics, computer science, mathematics, and domain expertise to extract useful information from data.
+Data science is an interdisciplinary field that involves using scientific methods, algorithms, and tools to extract insights and knowledge from structured and unstructured data. It combines various fields such as statistics, computer science, mathematics, and domain expertise to extract useful information from data.
 
 
 **KEY ELEMENTS OF DATA SCIENCE:**
@@ -64,7 +65,8 @@ In today's data-driven world, data science has become a critical component of ma
 
 **THE IMPORTANCE OF DATA SCIENCE**
 
-![A picture containing diagram
+![image](https://user-images.githubusercontent.com/95965896/234591555-6765aa49-459f-4f0b-9466-d5fa9ea9fcae.png)
+
 
 Description automatically generated](Aspose.Words.d8afd77f-df63-475f-bc94-ec1700bdbba8.004.png)
 
@@ -78,7 +80,7 @@ Overall, data science has become a critical tool for organizations to extract in
 
 **EXAMPLES OF INDUSTRIES THAT USE DATA SCIENCE:**
 
-![](Aspose.Words.d8afd77f-df63-475f-bc94-ec1700bdbba8.005.png)
+![image](https://user-images.githubusercontent.com/95965896/234591646-e771543d-49a6-491a-aea9-d5285ac72e88.png)
 
 - E-commerce:
 - Healthcare:
@@ -92,7 +94,7 @@ Overall, data science has become an integral part of various industries, enablin
 
 **DATA SCIENCE PROCESS**
 
-![Graphical user interface, diagram
+![image](https://user-images.githubusercontent.com/95965896/234591742-3d5f7426-acc9-48a2-bfed-c31994bab0b6.png)
 
 Description automatically generated](Aspose.Words.d8afd77f-df63-475f-bc94-ec1700bdbba8.006.png)
 
@@ -180,8 +182,7 @@ Overall, there are many different career paths in data science, each with unique
 
 
 **PYTHON PROGRAMMING LANGUAGE FUNCTIONS**
-
-![Text
+![image](https://user-images.githubusercontent.com/95965896/234592505-5471f380-63ce-4a59-a0c6-f40d1be021c5.png)
 
 Description automatically generated](Aspose.Words.d8afd77f-df63-475f-bc94-ec1700bdbba8.008.png)
 
@@ -274,7 +275,8 @@ with open('new\_file.csv', mode='w', newline='') as csv\_file:
 
 **OBJECTS AND MAP IN PYTHON**
 
-![Diagram
+![image](https://user-images.githubusercontent.com/95965896/234592568-575f7d44-4ebf-4c8b-a26e-a7f7cff3b7e4.png)
+
 
 Description automatically generated](Aspose.Words.d8afd77f-df63-475f-bc94-ec1700bdbba8.009.png)
 
@@ -369,7 +371,8 @@ print(squares)
 
 **Numpy:**
 
-![](Aspose.Words.d8afd77f-df63-475f-bc94-ec1700bdbba8.010.png)
+![image](https://user-images.githubusercontent.com/95965896/234592829-0af00e5c-ba4c-4480-9879-d59d2f9abc72.png)
+
 
 NumPy is a Python library used for working with arrays. It stands for Numerical Python. NumPy provides a fast and efficient way to work with arrays in Python and is an essential tool in data science and scientific computing.
 
@@ -465,7 +468,7 @@ print(arr6)
 
 **ARRAY OPERATION**
 
-![](Aspose.Words.d8afd77f-df63-475f-bc94-ec1700bdbba8.011.png)
+![image](https://user-images.githubusercontent.com/95965896/234592920-3ea5e2fd-4619-43d2-a988-cec8955b3d11.png)
 
 NumPy arrays allow for fast and efficient operations on arrays, including mathematical operations, logical operations, and statistical operations. Here are some common array operations in NumPy:
 
@@ -535,7 +538,7 @@ print(std)
 
 **INDEXING**
 
-![](Aspose.Words.d8afd77f-df63-475f-bc94-ec1700bdbba8.012.png)
+![image](https://user-images.githubusercontent.com/95965896/234593031-76c5f9ca-20d5-40b4-96cd-fbb28f499fa0.png)
 
 **Indexing:** Indexing is the process of accessing a specific element in a data structure by its position, or index, in the sequence. In Python, the first element in a sequence has an index of 0, and the last element has an index of -1. You can use square brackets [] to index a sequence in Python.
 
