@@ -1,6 +1,7 @@
 ![Screenshot 2023-04-14 133113](https://user-images.githubusercontent.com/95965896/231989826-da4cf2fa-a2d6-4ba9-aa37-6768401dd21d.png)
 
-![](Aspose.Words.d8afd77f-df63-475f-bc94-ec1700bdbba8.001.png)
+![Aspose Words d8afd77f-df63-475f-bc94-ec1700bdbba8 001](https://user-images.githubusercontent.com/95965896/234596262-f345b534-9563-45be-b2be-534085e18dc5.png)
+
 # Introduction-To-Data-Science-IDS-
 Welcome To My (IDS) Repository &amp; Happy Learning !
 
@@ -16,7 +17,8 @@ Page | 1
 
 **DEPARTMENT**
 
-![buitems_logo](Aspose.Words.d8afd77f-df63-475f-bc94-ec1700bdbba8.002.png)
+![Aspose Words d8afd77f-df63-475f-bc94-ec1700bdbba8 002](https://user-images.githubusercontent.com/95965896/234596382-b4add1b0-7305-4c49-8b99-7afed6d34e89.png)
+
 
 **INTRODUCTION TO DATA SCIENCE**
 
