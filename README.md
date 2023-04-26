@@ -653,6 +653,7 @@ selected\_rows = data[data[:, 2] > 10]
 **CODE**
 
 **Print(Musharraf Raza Khan | 52024)**
+
 import matplotlib.pyplot as plt
 
 plt.scatter(data[:, 0], data[:, 1])
