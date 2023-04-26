@@ -47,6 +47,7 @@ The goal of data science is to discover patterns and relationships in data that 
 In today's data-driven world, data science has become a critical component of many industries and is used to solve a wide range of problems, from predicting customer behaviour to optimizing supply chain operations.
 
 **DATA SCIENCE:**
+
 ![image](https://user-images.githubusercontent.com/95965896/234592377-22a5a22e-f5b6-4055-b7fb-75093e7b6d0d.png)
 
 Data science is an interdisciplinary field that involves using scientific methods, algorithms, and tools to extract insights and knowledge from structured and unstructured data. It combines various fields such as statistics, computer science, mathematics, and domain expertise to extract useful information from data.
@@ -179,9 +180,8 @@ Overall, there are many different career paths in data science, each with unique
 
 
 
-
-
 **PYTHON PROGRAMMING LANGUAGE FUNCTIONS**
+
 ![image](https://user-images.githubusercontent.com/95965896/234592505-5471f380-63ce-4a59-a0c6-f40d1be021c5.png)
 
 Description automatically generated](Aspose.Words.d8afd77f-df63-475f-bc94-ec1700bdbba8.008.png)
