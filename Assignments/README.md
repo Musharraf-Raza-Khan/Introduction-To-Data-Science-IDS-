@@ -4,6 +4,8 @@
 
 **DO NOT COPY**
 
+/--------------------------------\
+
 ### Question # 01
 
 Write a Python function called `proportion_of_education` that calculates the proportion of children in the dataset who had a mother with different levels of education. The function should take no arguments and should return a dictionary containing the proportions in the form of:
@@ -44,6 +46,8 @@ For example, the returned dictionary should be in the form:
 ```
 This means that 20% of children in the dataset had a mother with less than a high school education, 40% had a mother with a high school education, 20% had a mother with more than a high school but not college education, and 20% had a mother with a college education.
 
+/--------------------------------\
+
 ### Question  # 02
 
 Explore the relationship between being fed breastmilk as a child and getting a seasonal influenza vaccine from a healthcare provider. Write a function that returns a tuple of the average number of influenza vaccines for those children who received breastmilk as a child and those who did not, in the form:
@@ -72,6 +76,8 @@ The expected output is a tuple of two numbers: the first number represents the a
 
 For example, the output (2.5, 0.1) means that on average, children who received breastmilk as a child had 2.5 influenza vaccines from a healthcare provider, while children who did not receive breastmilk had only 0.1 influenza vaccine from a healthcare provider.
 
+/--------------------------------\
+
 
 ### Question # 03
 
@@ -97,6 +103,8 @@ To solve this problem, the following skills and knowledge are required:
 - Familiarity with data analysis and data visualization using Python
 - Understanding of dictionary data structure in Python
 
+/--------------------------------\
+
 ### Question # 04
 
 Determine if there is a correlation between having had the chickenpox and the number of chickenpox vaccine doses given (varicella). The function should return the correlation coefficient and p-value in the form of a tuple. Interpretation of the correlation coefficient and p-value is also provided in the question description.
@@ -113,6 +121,7 @@ The p-value is the probability of observing a correlation coefficient as extreme
 
 **THE END**
 
+/--------------------------------\
 
 
 
