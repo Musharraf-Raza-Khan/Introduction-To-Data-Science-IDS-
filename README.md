@@ -5,8 +5,11 @@
 # Introduction-To-Data-Science-IDS-
 Welcome To My (IDS) Repository &amp; Happy Learning !
 
+**SESSIONAL MARKS DIVISION**
+- 05 Marks For Quizes.
+- 10 Marks Professional Well-Maintained Github Repository With Self-Explanatory Code & Readme Files. 
+- 10 Marks For Assignments.
 
-Page | 1
 
 |**GITHUB (RES)**|**INTRODUCTION TO DATA SCIENCE (IDS)**|
 | :-: | :- |
