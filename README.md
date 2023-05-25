@@ -673,6 +673,8 @@ plt.show()
 
 **API:**
 
+![image](https://github.com/Musharraf-Raza-Khan/Introduction-To-Data-Science-IDS-/assets/95965896/815ca14a-7655-4429-88b7-c796c4368c18)
+
 API stands for Application Programming Interface. Different software applications can communicate and interact with one another according to a set of rules and protocols. APIs specify the procedures, data structures, and guidelines that programmers must adhere to when connecting their applications with a certain piece of software or service.
 
 Without having to comprehend the intricate implementation details, APIs allow developers to access and utilise the functionality of other software systems, such as web services, libraries, or operating systems. They give programmes a standardised way to ask for and exchange data, carry out actions, and use resources made available by the API provider.
@@ -680,6 +682,9 @@ Without having to comprehend the intricate implementation details, APIs allow de
 In many diverse situations, including web development, mobile app development, cloud computing, and the integration of numerous software systems, APIs are frequently utilised. By building on top of current platforms and technologies, they enable developers to take use of existing services, expand the functionality of their apps, and generate novel solutions.
 
 **API Working:**
+
+![image](https://github.com/Musharraf-Raza-Khan/Introduction-To-Data-Science-IDS-/assets/95965896/3fff117b-0d42-408f-93af-17d0c83a728a)
+
 An API functions in a set of steps that enable communication and interaction between programmes. Here is a general explanation of how APIs operate:
 
 -Request: The client application sends an HTTP request (such as GET, POST, PUT, or DELETE) to a particular URL or endpoint to start a request to the API. The request contains data in the request body occasionally, as well as headers and parameters.
@@ -717,9 +722,11 @@ You normally need to perform the following steps in order to extract data from a
 import requests
 
 // API endpoint URL
+
 url = "https://api.example.com/data"
 
 //API request headers (if required)
+
 headers = 
 {
     "Authorization": "Bearer YOUR_ACCESS_TOKEN",
@@ -727,9 +734,11 @@ headers =
 }
 
 //Send GET request to the API
+
 response = requests.get(url, headers=headers)
 
 //Check if the request was successful (200 status code)
+
 if response.status_code == 200:
     # Extract the response data in JSON format
     data = response.json()
