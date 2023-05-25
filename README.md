@@ -706,6 +706,7 @@ Processing: The requested endpoint's associated activities or business logic are
 
 
 **Data Extraction From API Through Code?**
+
 You normally need to perform the following steps in order to extract data from an API using code:
 
 1. Select an API: Choose the API from which you can extract the desired data. This could be an internal API you created or a public API offered by a platform or service.
