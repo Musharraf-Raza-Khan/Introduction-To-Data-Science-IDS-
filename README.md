@@ -671,14 +671,15 @@ plt.show()
 
 **26.April.2023**
 
-**API**
+**API:**
+
 API stands for Application Programming Interface. Different software applications can communicate and interact with one another according to a set of rules and protocols. APIs specify the procedures, data structures, and guidelines that programmers must adhere to when connecting their applications with a certain piece of software or service.
 
 Without having to comprehend the intricate implementation details, APIs allow developers to access and utilise the functionality of other software systems, such as web services, libraries, or operating systems. They give programmes a standardised way to ask for and exchange data, carry out actions, and use resources made available by the API provider.
 
 In many diverse situations, including web development, mobile app development, cloud computing, and the integration of numerous software systems, APIs are frequently utilised. By building on top of current platforms and technologies, they enable developers to take use of existing services, expand the functionality of their apps, and generate novel solutions.
 
-**API Working**
+**API Working:**
 An API functions in a set of steps that enable communication and interaction between programmes. Here is a general explanation of how APIs operate:
 
 -Request: The client application sends an HTTP request (such as GET, POST, PUT, or DELETE) to a particular URL or endpoint to start a request to the API. The request contains data in the request body occasionally, as well as headers and parameters.
@@ -715,20 +716,20 @@ You normally need to perform the following steps in order to extract data from a
 **Example Python Code For Data Extraction Through API** 
 import requests
 
-# API endpoint URL
+// API endpoint URL
 url = "https://api.example.com/data"
 
-# API request headers (if required)
+//API request headers (if required)
 headers = 
 {
     "Authorization": "Bearer YOUR_ACCESS_TOKEN",
     "Content-Type": "application/json"
 }
 
-# Send GET request to the API
+//Send GET request to the API
 response = requests.get(url, headers=headers)
 
-# Check if the request was successful (200 status code)
+//Check if the request was successful (200 status code)
 if response.status_code == 200:
     # Extract the response data in JSON format
     data = response.json()
@@ -740,7 +741,7 @@ else:
     # Request was not successful, print the error status code
     print("Error:", response.status_code)
 
-**Explaination of The Code**
+**Explaination of The Code:**
 
 Certainly! Let's go through the code step by step to understand what it does:
 
