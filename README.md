@@ -671,5 +671,107 @@ plt.show()
 
 **26.April.2023**
 
+**API**
+API stands for Application Programming Interface. Different software applications can communicate and interact with one another according to a set of rules and protocols. APIs specify the procedures, data structures, and guidelines that programmers must adhere to when connecting their applications with a certain piece of software or service.
+
+Without having to comprehend the intricate implementation details, APIs allow developers to access and utilise the functionality of other software systems, such as web services, libraries, or operating systems. They give programmes a standardised way to ask for and exchange data, carry out actions, and use resources made available by the API provider.
+
+In many diverse situations, including web development, mobile app development, cloud computing, and the integration of numerous software systems, APIs are frequently utilised. By building on top of current platforms and technologies, they enable developers to take use of existing services, expand the functionality of their apps, and generate novel solutions.
+
+**API Working**
+An API functions in a set of steps that enable communication and interaction between programmes. Here is a general explanation of how APIs operate:
+
+-Request: The client application sends an HTTP request (such as GET, POST, PUT, or DELETE) to a particular URL or endpoint to start a request to the API. The request contains data in the request body occasionally, as well as headers and parameters.
+
+-Routing: Based on the URL and HTTP method used, the API server receives the request and chooses the best endpoint and handler to handle it.
+Processing: The requested endpoint's associated activities or business logic are carried out by the API server. This could entail using external services, conducting calculations, accessing databases, or any other necessary tasks.
+
+-Authentication and Authorization: The server may authenticate the client to make sure it has the necessary permissions to access the requested resources, depending on the security needs of the API. Use of API keys, tokens, or other authentication methods may be required.
+
+-Data retrieval or manipulation: Depending on the parameters of the request and the business logic, the API server retrieves or modifies the data. This can entail running a database query, handling files, or carrying out any other relevant operations.
+
+-Response: After handling the request, the server creates an HTTP response. The answer normally consists of a response body containing the requested data or pertinent error messages, as well as a status code indicating whether the request was successful or unsuccessful.
+
+-Data transfer: Over the network, the server delivers the HTTP response back to the client application. The client application receives and processes the response.
+
+-Client-side processing: After receiving the response, the client application processes it in accordance with its needs. This may entail analysing the response, showing the user the data, or taking additional actions in response to the information received.
+
+ The use of APIs allows programmes to communicate with one another, share information, and take advantage of the functions offered by the API provider. The architecture of the API will determine the specifics and protocols used for communication, such as REST (Representational State Transfer), SOAP (Simple Object Access Protocol), GraphQL, or others.
+
+
+**Data Extraction From API Through Code?**
+You normally need to perform the following steps in order to extract data from an API using code:
+
+1. Select an API: Choose the API from which you can extract the desired data. This could be an internal API you created or a public API offered by a platform or service.
+
+2. Obtain API credentials. You might need to acquire authentication credentials, such as an API key, access token, or username/password combination, depending on the API's specifications. Your queries to the API are authenticated using these credentials.
+
+3. Configure the API client: You must configure either an HTTP client library or a specialised API client library, depending on the programming language you're using. These tools make it easier to send HTTP requests and manage responses.
+
+4. Send HTTP requests: To send HTTP queries to the API's endpoints, use the API client library. Using the API documentation and the action you wish to do (such as accessing, creating, or changing data), choose the proper HTTP method (GET, POST, PUT, or DELETE). Include any relevant request body data, headers, and parameters.
+
+5. Handle the response: You can extract the data from the response body after receiving the response from the API. The information could be delivered in a number of formats, like JSON.
+
+**Example Python Code For Data Extraction Through API** 
+import requests
+
+# API endpoint URL
+url = "https://api.example.com/data"
+
+# API request headers (if required)
+headers = 
+{
+    "Authorization": "Bearer YOUR_ACCESS_TOKEN",
+    "Content-Type": "application/json"
+}
+
+# Send GET request to the API
+response = requests.get(url, headers=headers)
+
+# Check if the request was successful (200 status code)
+if response.status_code == 200:
+    # Extract the response data in JSON format
+    data = response.json()
+
+    # Process and use the extracted data as needed
+    for item in data:
+        print(item)
+else:
+    # Request was not successful, print the error status code
+    print("Error:", response.status_code)
+
+**Explaination of The Code**
+
+Certainly! Let's go through the code step by step to understand what it does:
+
+1. We import the requests library, enabling us to make HTTP queries to the API and manage their answers.
+
+2. We use a string variable called url to represent the API endpoint URL. This need to be the URL that the API documentation provides for the particular data that you want to get.
+
+3. To hold any necessary headers for the API request, we then build a dictionary called headers. For authentication purposes, we add a bearer token and a "Authorization" header in the example code. Depending on the type of authentication the API requires, you might need to change this.
+
+4. To submit a GET request to the API endpoint, we employ the requests.get() method. The endpoint URL is specified by the url variable, and any necessary headers are passed via an argument in the form of the headers dictionary.
+
+5. The response variable contains the API response that was received.
+
+6. Using response.status_code, we examine the response's status code. We explicitly check in this case if it equals 200, which denotes a successful request. We extract and handle the data if the status code is 200.
+
+7. Using the response.json() method, the response's content is retrieved and parsed as JSON. This implies that JSON data is returned by the API. You would need to modify the code if the API returned data in a different format.
+
+8. We iterate over the extracted data using a for loop and print each item. This is just an example to demonstrate how to process the data. You would typically customize this part of the code based on your specific requirements.
+
+9. If the status code is not 200, the code prints an error message along with the actual status code received.
+
+# NOTE:
+Please note that this is a simplified example, and you may need to modify the code based on the specific requirements of the API you are working with, such as authentication, request parameters, error handling, and data processing. Refer to the API documentation for accurate implementation details.
+
+In this illustration, a GET request is made using the requests library and sent to the API endpoint identified by the url variable. Any necessary headers, like an access token for authentication, are contained in the headers dictionary. Depending on the particular requirements of the API you are using, you might need to adjust the headers dictionary.
+
+After receiving the response, we verify that the status code is 200, which denotes a successful request. If so, we use the.json() method to extract the response data in JSON format. The retrieved data can subsequently be processed and used in accordance with your demands.
+
+The code will print the error status code if the request was unsuccessful (status code other than 200).
+
+Before running the code, make sure to install the requests library. Pip install requests can be used to accomplish this in your terminal or command prompt.
+
 **MUSHARRAF RAZA KHAN | 52024 | BUITEMS**
 
