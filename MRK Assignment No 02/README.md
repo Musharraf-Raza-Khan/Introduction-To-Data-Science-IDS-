@@ -20,6 +20,8 @@ This task demonstrates proficiency using Python to interact with the API. The as
 5 .Execute by launching the Python file or running it in a Jupyter Notebook.
 
 # Results
-When the code is executed, it will retrieve API, remove duplicates, and save the information to a CSV file called "youtube.csv." The final product will comprise the following:
+When the code is executed, it will retrieve API, remove duplicates, and save the information to a CSV file called "youtube.csv." 
+
 Before processed to the CSV file, the details like (Name, Comments, Time, Likes, Reply Count) will displayed in JSON Format.
+
 In a tabular style with columns for Name, Comments, Year, Time, Likes, Reply Count are contained in csv file.
