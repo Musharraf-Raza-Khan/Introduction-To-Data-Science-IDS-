@@ -784,5 +784,27 @@ The code will print the error status code if the request was unsuccessful (statu
 
 Before running the code, make sure to install the requests library. Pip install requests can be used to accomplish this in your terminal or command prompt.
 
-**MUSHARRAF RAZA KHAN | 52024 | BUITEMS**
+**Exploratory Data Analysis (EDA)**
 
+Exploratory Data Analysis (EDA) is a method for examining and summarising data sets in order to better understand their key features, find trends, spot abnormalities, and develop ideas for additional investigation. In order to explore the data and generate insights that might inform later data modelling and decision-making processes, it entails applying a variety of statistical and visual tools.
+
+The following are some typical procedures and methods used in exploratory data analysis:
+
+1. Data gathering and initial inspection: Compile the pertinent data and look over its dimensions, structure, and fundamental characteristics including the number of variables, data types, and missing values.
+
+2.Data cleaning and preprocessing: Handle missing values, outliers, and inconsistencies in the data during data cleaning and preprocessing. In this step, missing values may be imputed, outliers may be eliminated, and variable transformations may be necessary.
+
+3.Univariate analysis: Analyse each variable separately to comprehend its distribution, summary statistics (mean, median, and mode), range, and spot outliers using a univariate approach. The usage of methods like histograms, box plots, and summary statistics is widespread.
+
+4.Bivariate and multivariate analysis:Analyse the associations between variables using bivariate and multiple variables. Correlation analysis can be used with numerical variables to express the strength and direction of correlations. It is common to employ scatter plots, heatmaps, and correlation matrices. Contingency tables and bar plots can be used to investigate associations for categorical variables.
+
+5.Visualisation: To exhibit the data and spot patterns, trends, and outliers, use a variety of visualisations such scatter plots, line plots, bar charts, histograms, box plots, and heatmaps. Making data-driven judgements and comprehending complex relationships can both benefit from visualisations.
+
+6.Feature Engineering: Feature engineering is the process of creating new features or altering existing ones using domain expertise and understanding derived from EDA. To enhance the performance of the model, this stage may involve generating derived features, scaling variables, or introducing interaction terms.
+
+7.Summary and interpretation: Condense the results of the EDA process, highlight significant trends or insights, and develop ideas for more research or modelling. In this step, the results are interpreted in light of the problem domain.
+
+# NOTE:
+As it aids in understanding the data, identifies potential problems, and directs further analysis or modelling tasks, EDA is a vital step in the data analysis pipeline. It enables data scientists and analysts to comprehend the data more thoroughly, spot problems with the quality of the data, and produce ideas for additional research.
+
+**MUSHARRAF RAZA KHAN | 52024 | BUITEMS**
