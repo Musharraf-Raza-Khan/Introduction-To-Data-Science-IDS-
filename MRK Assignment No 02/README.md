@@ -3,9 +3,13 @@
 This task demonstrates proficiency using Python to interact with the API. The assignment requires you to retrieve book data from the API, filter the results based on predetermined standards, and save the information to a CSV file. The assignment evaluates students' knowledge of Python's file handling, data manipulation, and working with APIs.
 
 # Activity Overview
+
 -Use an API key to connect to the API.
+
 -you have to provide the youtube video ID.
+
 -Prior to save the data to the CSV file, provide the specifics for each book.
+
 -Create a CSV file with columns 
 
 # Steps to follow
