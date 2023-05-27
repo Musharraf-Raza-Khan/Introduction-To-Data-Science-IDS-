@@ -787,6 +787,8 @@ Before running the code, make sure to install the requests library. Pip install 
 
 **Exploratory Data Analysis (EDA)**
 
+![image](https://github.com/Musharraf-Raza-Khan/Introduction-To-Data-Science-IDS-/assets/95965896/fd5004b4-fab6-4878-9279-a0f38afc877c)
+
 Exploratory Data Analysis (EDA) is a method for examining and summarising data sets in order to better understand their key features, find trends, spot abnormalities, and develop ideas for additional investigation. In order to explore the data and generate insights that might inform later data modelling and decision-making processes, it entails applying a variety of statistical and visual tools.
 
 The following are some typical procedures and methods used in exploratory data analysis:
