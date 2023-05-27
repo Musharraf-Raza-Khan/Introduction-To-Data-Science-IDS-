@@ -704,7 +704,6 @@ Processing: The requested endpoint's associated activities or business logic are
 
  The use of APIs allows programmes to communicate with one another, share information, and take advantage of the functions offered by the API provider. The architecture of the API will determine the specifics and protocols used for communication, such as REST (Representational State Transfer), SOAP (Simple Object Access Protocol), GraphQL, or others.
 
-
 **Data Extraction From API Through Code?**
 
 You normally need to perform the following steps in order to extract data from an API using code:
@@ -784,6 +783,8 @@ The code will print the error status code if the request was unsuccessful (statu
 
 Before running the code, make sure to install the requests library. Pip install requests can be used to accomplish this in your terminal or command prompt.
 
+25.May.2023
+
 **Exploratory Data Analysis (EDA)**
 
 Exploratory Data Analysis (EDA) is a method for examining and summarising data sets in order to better understand their key features, find trends, spot abnormalities, and develop ideas for additional investigation. In order to explore the data and generate insights that might inform later data modelling and decision-making processes, it entails applying a variety of statistical and visual tools.
@@ -806,5 +807,7 @@ The following are some typical procedures and methods used in exploratory data a
 
 # NOTE:
 As it aids in understanding the data, identifies potential problems, and directs further analysis or modelling tasks, EDA is a vital step in the data analysis pipeline. It enables data scientists and analysts to comprehend the data more thoroughly, spot problems with the quality of the data, and produce ideas for additional research.
+
+27.May.2023
 
 **MUSHARRAF RAZA KHAN | 52024 | BUITEMS**
