@@ -1,0 +1,735 @@
+Name,Comment,Time,Likes,Reply Count
+yash chavhan,"At time stamp 2:48:06 
+I am getting  
+TypeError: get_xy() got an unexpected keyword argument 'x_labels'
+
+Can anyone explain???
+
+
+I don't understand why its an argument error even though in previous cell x_labels is defined...
+
+At time stamp 2:53:40 error 😞😞",2023-05-23T20:10:43Z,0,1
+yash chavhan,"If anyone is facing same problem please 
+Use chat gpt for correction...
+
+
+It could be solved by replacing x_labels with x_label  and the copy line irrelevant...",2023-05-24T09:36:57Z,0,
+Mishkat Hossain,"for label in cols[:-1]:
+    plt.hist(df[df[""class""]==1][label], color='blue', label='Class 1', alpha=0.7, density=True)
+    plt.hist(df[df[""class""]==0][label], color='red', label='Class 0', alpha=0.7, density=True)
+    plt.title(label)
+    plt.ylabel(""Probability"")
+    plt.xlabel(label)
+    plt.legend()
+    plt.show()
+
+
+#This code is  showing error in google colab. Can anyone explain??",2023-05-23T05:59:51Z,0,0
+4th Reich,I cant see ur eyes,2023-05-22T18:32:47Z,0,0
+4th Reich,Baby girl,2023-05-22T18:32:25Z,0,0
+4th Reich,I lobe u,2023-05-22T18:32:05Z,0,0
+George Whittington,29:14,2023-05-22T03:08:40Z,0,0
+Aman Mehar,I am having the same problem that you had in video at 44:11,2023-05-21T05:37:35Z,0,0
+JaM EvolvE,"When it comes to coding, as someone who is new, I often wonder does everyone doing these videos just have every formula they need memorized or what man lol seems impossible to know where to start without guidance",2023-05-19T10:14:40Z,0,1
+heruel,this video is pretty bad explanation wise for an introductory course. please don't let this discourage you from learning this skill tho,2023-05-21T11:24:56Z,0,
+Harun Öz,"*NichesPanel likes this xD* we all know that they isn't, but do you think models buy followers to appear on the internet?",2023-05-18T16:37:11Z,1059,0
+yousef sami,is the playlist arranged ?,2023-05-18T16:26:14Z,0,0
+BirdWatchingSolution,Reqeusting such a detailed course on Kalman filtering,2023-05-17T20:29:37Z,0,0
+Rahul,"1:02:45 minor correction
+P(disease) = 1.0 OR P(disease|(+)test) = 0.9",2023-05-17T08:47:48Z,0,0
+Drew Gallagher,"It would be helpful for people without coding experience to explain the libraries being used, the languages, and how it works. Or to explain the bare minimums required. This seems more like it's geared to people with python programming experience as a base",2023-05-16T13:49:29Z,2,0
+MR_NOOB,I think it is not suitable for beginners.for revision purpose it is okay:::::::::),2023-05-13T05:45:28Z,0,0
+david harestad,Stupid question: is this still relevant after chat-GPT?,2023-05-13T04:52:04Z,0,1
+Dilshaan Sandhu,Machine Learning is a skill which is now even more relevant after the development of ChatGPT.,2023-05-19T06:44:53Z,0,
+Ignatius J. Reilly,"Hi, thank you very much for this high quality course, a real master piece. Maybe as a newbie, I could be wrong but it seems there is an error in the explaination of the data preprocessing (usage of standardscaler). The standard scaler has to be fit and transform the train sample however, the scaler parameters should then be stored and it has to ONLY transform the next sample (valid and test). Fitting the scaler on the valid and test sample could have a bad effect the the X values and misaligned the data from the train sample. Once again, I'm new on this topic but it seems quite clear this standard scaler usage is inappropriate.",2023-05-11T19:44:28Z,0,0
+Durgesh kumar bhagat,it's really great work,2023-05-11T19:40:35Z,0,0
+Spiritual Intelligence,Hey the data set you brought was so strange becasue i try to bring the same type of data set i was unable and it wont work with pick and drop can u help me with it,2023-05-10T22:44:25Z,0,0
+Abdullah Al Noman,10/5/2023,2023-05-10T17:45:59Z,0,0
+Androido And,aaaggghh her vocal fry is killing me!!!😩,2023-05-10T04:27:12Z,0,0
+Yin Yarda,"hot dog and not hot dog, i love it <3",2023-05-06T06:58:09Z,0,0
+dEaD_ hOlicX!,The probability topic did mess my brain.,2023-05-05T18:51:54Z,0,0
+Niladri Saha,"'numpy.ndarray' object has no attribute 'columns' . I am getting this error over and over while training the dataset @ 43:00
+please someone help me get through this error, the code is exactly same as hers i checked it 10 times over",2023-05-05T07:05:42Z,0,1
+Adwaidh T.P,"try slicing by 
+X=dataframe[:,:-1]
+Y=dataframe[:,-1]",2023-05-10T10:23:38Z,0,
+Solus Nostre,The magic dataset in the UCI website as of 2023 is different. It only contains hadron class information. Can someone please link me to the old dataset.,2023-05-05T05:43:48Z,0,0
+Lester Mcpherson,This lady needs to start a University.,2023-05-01T23:26:08Z,0,0
+kernelp4n1c,"If you have troubles with ""bikes"" csv file then just delete temperature sign before (C) in 2 columns in csv file. It should help you.",2023-04-30T15:25:41Z,0,0
+Best Clips,"that is a gecko, not a lizard",2023-04-30T14:25:31Z,0,0
+rickyu1978,"Not much talk on regression for MLP OR SVM, most of the examples are classification,",2023-04-30T07:36:25Z,0,0
+Yeet Oner,"Thanks for the content. This isn't for everyone though.. She speeds through so much and beginners are just sitting here going ""What the hell is going on..."". Looks like that was being pointed out early in the comments and then there seems to be a flood ""this is so clear and fully fleshed out!"" comments that have been pushed to the top.. That's a bit sus.",2023-04-30T02:52:33Z,2,1
+Cosmic Witness,no u actually just have needed to know programming and some basic math. This is much better than that 9hr one by that indian kid,2023-05-18T13:56:38Z,0,
+Grigory Trofimov,all clearly explained! good overview of  ML,2023-04-29T20:11:57Z,0,0
+Yusuf Can,this girl is the soruce of the things I don't know,2023-04-25T22:51:16Z,0,0
+Phat,Can’t understand the positive feedbacks. It’s the most boring and tedious ML tutorial I’ve ever seen. There’re much better ML tutors you can find on Youtube… And using bad handwriting for an explanation is a complete failure. I usually prefer video tutorials but in this case even a book would be better.,2023-04-22T21:52:10Z,0,0
+Kaustubh Ramteke,एकच नंबर न गा,2023-04-21T03:21:35Z,0,0
+JProgramador,En español xfas,2023-04-20T19:47:42Z,0,0
+Anonymous GamĒr,not for beginers,2023-04-20T12:48:07Z,1,0
+Richard Wang,Thanks!,2023-04-20T03:28:12Z,0,0
+Edward Duda,Such a great video. I’m already 30min and learning a lot. My major is centered around AI and machine learning so I wanted a sneak peek at what’s to come. Thank you!,2023-04-19T03:03:32Z,3,0
+Good,this is actually a rlly nice course,2023-04-18T00:18:03Z,0,0
+Gourab Mahato,Where can I get this ppt?,2023-04-15T10:21:04Z,0,0
+No Name,Do not waste your time kids on this type of videos,2023-04-14T17:53:50Z,0,1
+Cosmic Witness,why,2023-05-18T13:57:19Z,0,
+T-MO_07,i have an exam next week on machine learning. if anyone can help me that would be nice. thanks,2023-04-14T10:48:36Z,0,0
+Zforgetaboutit,"I hope you stop saying ""actually"" and ""basicallly"". They add nothing and prevent your video from being clearer.",2023-04-11T16:18:24Z,0,0
+Dario,what code editor are you using?,2023-04-11T06:17:13Z,0,0
+Sayan De,"Right now I'm trying to get into the field of Machine Learning, and I just stumbled upon this particular video. Needless to say, it's an amazing one and helped me to understand the basics. I sincerely can't thank you enough.
+
+Honestly, I've learnt pretty much 90% of what I currently know about computers just from FreeCodeCamp. Starting from the basic HTML, CSS & JS stuff to advanced concepts like Machine Learning & Data Science, you've got it all covered in 1 place. Thanks again to everyone involved in this venture. :)",2023-04-11T05:05:56Z,1,0
+Bw Bs,Why use co-lab can I just use a python IDE?,2023-04-08T19:06:51Z,0,0
+Sidra Balhawan,Which programming language is this ?,2023-04-07T10:11:30Z,1,1
+Vivaan Mukherji,python,2023-04-08T06:46:56Z,0,
+Atul Gupta,Hats off.. cannot imagine that it is possible to explain these concepts in such a simple way. Thank you and please keep on posting such learning videos.,2023-04-07T07:41:45Z,0,0
+Rick Gomez,Thanks!,2023-04-06T20:28:47Z,0,0
+PG Liberal,"Honestly good course, but I don't think this is a good place for a begineer to start.",2023-04-06T14:03:20Z,0,0
+dykingable's channel,"I gave a thumbs down because I am new to learning all this and you are talking way to fast for me to learn from you so I will not even watch the rest of the video cannot learn from it if you want to teach then remember the person is trying to learn you already  know it I do not ,teaching is when you focus on the student and teach them not yourself as you already know what you want to teach",2023-04-05T15:35:29Z,0,0
+Nikolas Stratigos 🇬🇷,"Kylie, can you please explain to me why would the two lines at timestamp: 3:02:53, appear to be the same function when I plot them?",2023-04-05T15:09:20Z,0,0
+Prince Agra,What the shortcut to de-select after using ctrl shift L? Struggling with that. It selects all occurrences but you might want to edit just a few. Pls help,2023-04-04T20:26:01Z,0,0
+?,thanks =),2023-04-04T06:50:19Z,0,0
+Rachitdavecan,"you can draw sigmoid in two parts :
+1st lower part of s from middle
+2nd upper part of s from middle 
+(that's my contribution🤣)",2023-04-01T18:33:29Z,0,0
+Rachitdavecan,"hold alt and click on multiple ,words or line for editing multiple line/words together",2023-04-01T12:38:48Z,0,0
+Manuel Silva,"man idk, this course kinda got me acting unwise..",2023-03-30T02:10:37Z,1,0
+reuben seyram,"@ 39:09- Since X and y start out with the same dimensionality (both 2D, with y as a single-column dataframe), do we still need to reshape y?",2023-03-28T03:47:27Z,1,0
+georgio hayek,"in this video we learnt two things, machine learning and there are only two genders",2023-03-27T18:14:20Z,1,0
+marketorix,This is not for beginners and certainly not for everybody . It assumes previous.domain knowledge in ML concepts. Or math part is just badly explained.,2023-03-27T13:12:02Z,0,0
+Pocho Nieves,"STRONG RECOMMNDATION: Should had pick a data set of something not so scientific and nerdy. The data set is about something most people can't relate. In order to grasp the lesson better it would be better if the data set is about a topic people that is not in astronomy or physics can relate or have context to understand the value of why we should sit through hours of something so when I get the answer I still don't have context or excitement about the results. 
+It took me less than 5 mins to lose interest and just write this post in disappointment.",2023-03-26T20:25:32Z,0,0
+themightysapien,Coding with Radu enters the chat 😅.,2023-03-26T17:39:21Z,0,0
+KITT,"too much vocal fry, can't listen sorry",2023-03-26T14:41:31Z,0,0
+DYIMAH,"if val_loss < least_val_loss:
+TypeError: '<' not supported between instances of 'list' and 'float'
+
+I received the above error when I was working on the code for neural nets section around the 2:03 hour mark. I also noted the following: 
+
+least_val_loss = float('inf') 
+val_loss = model.evaluate(x_valid, y_valid)
+
+Why am I receiving this error? Im confused as to which is the list? Im new to machine learning and coding in general so forgive me!",2023-03-24T23:18:48Z,0,1
+Sashini Liyanage,"Try least_val_lost = [float('inf'),float('inf')]",2023-03-29T15:03:13Z,0,
+Martín Zutelman,"am i the only one who thinks this is a pretty worthless tutorial, im not even a begginer and this is too quick to learn anything.",2023-03-24T23:07:41Z,0,0
+arkil,"I have a question I would like to add, In this course on the scale_dataset() function scaler was always refitted and then transformed. This was done for the test set as well. Won't this reset the fitting parameters for the testing data and our model would not be accurate?",2023-03-24T19:46:00Z,1,1
+FUNG CYU,I have the same concern. I am thinking the correct approach should fit X_train and then tranform to X_test,2023-04-10T20:51:51Z,0,
+Nathanael Swanson,@45:50 whoever is making 320k a year with no kids is living it up!,2023-03-24T10:19:18Z,0,0
+Md. Muinul Hassan Shajal,I astonished what a great presentation really you are great person❤❤❤,2023-03-22T05:45:53Z,1,0
+saras temkar,"I am in your debt madam"" in Italian accent",2023-03-22T05:02:49Z,0,0
+Hans Bleuer,"Ich benutze dieses Video, um schneller einzuschlafen.
+Es wirkt.",2023-03-22T03:54:16Z,0,0
+ЧАТ,"ok. i think, everybody understand, why it is asian on machine learning video preview.",2023-03-19T19:02:48Z,0,0
+Dawei Dang,Hi Could I have the PPT?,2023-03-19T09:37:51Z,0,0
+象棋大师,"Where could I find the original full video? Obviously this video is a part of that, Anyone can help?",2023-03-18T12:10:45Z,0,0
+Baboo Chiku,First tutorial above my head,2023-03-18T06:46:53Z,0,0
+Networkserpent,Should I learn stats before doing this algorithm,2023-03-17T21:18:00Z,0,0
+Shakthi sri,36:21,2023-03-17T13:51:50Z,0,0
+Akhil Bisht,I am following this tutorial and on line 7 there are only 2 types of data that are available so she changed them to binary but in the new or updated dataset there are 3 value inlcuding nan. How go about it should i change nan to 0?,2023-03-16T10:06:32Z,0,0
+Randall's Terminal,"At 3:53:52 I am getting: TypeError: 'int' object is not subscriptable.  I suspected it was the class object.  Was it because we earlier turned it into a binary? Why didn't the teacher get this error?  Should I turn it back into a string? I see others have questions unanswered in the comments.  If freeCodeCamp / teacher is not going to answer a few  questions, then why would I be motivated to sign up for any other courses?",2023-03-16T06:32:38Z,0,0
+nazeer mohamed,"Sir,  Are the All parts or All contents covered for machine learning 
+ in this video??",2023-03-15T16:48:17Z,0,0
+todd dai,Does output function is similar as the link function in glm?,2023-03-14T22:19:15Z,0,0
+Konjeng2,"Mam I need one to one class (basic),,,, can you help me",2023-03-13T12:03:25Z,0,0
+Eyuel Begashaw,"Hey  Kylie , the power point seems well organized. where can we get it ?",2023-03-11T08:09:15Z,0,0
+Shafagh Dastjani,Hi anybody has an issue with tensorflow ( Python 3.11.2)? Can’t install the tf,2023-03-08T17:17:04Z,0,0
+Ramirez,where can I get the ppts that she used?,2023-03-07T19:02:53Z,0,0
+Armeen R,Thanks!,2023-03-06T05:31:27Z,0,0
+Ahmad Al-Rashidy,Can some one tell me what is a batch size in timestamp 1:54:06 thank you.,2023-03-05T00:51:30Z,0,1
+Liu Junhan,batch size is the number of samples we are going to pass into for training,2023-03-17T06:27:56Z,0,
+Cant_Hit_This7,"Probably should specify that this is for someone already familiar with Python's data science tools. Throwing in Pandas, Numpy, and Sklearn is a bit heavy-handed for a complete beginner.",2023-03-04T19:35:55Z,1,0
+ibrahima diallo,shes cute,2023-03-04T14:20:04Z,0,0
+Jean DAVID,".....  everybody means some requirements needed (knowledge for pandas dataframes, sklearn scaler, imblearn sampler, etc...)",2023-03-04T10:19:47Z,0,0
+TerribleTurtle,"If you're getting an error about comparing a list to a float.  Changing the ""least_val_loss"" variable to a list with two infinite floats will fix it.  Like this: least_val_loss = [float('inf'), float('inf')]",2023-03-02T23:57:06Z,30,2
+Cosine Wave,"@Bruno That section had the correction edited out. Right after she says ""now we wait"" (2:05:50) the video skips her debugging and cuts straight to the correct code. Notice the [0] that gets added to the ""val_loss = model.evaluate(X_valid, Y_valid)"" line right after the ""now we wait"".",2023-05-24T06:07:16Z,0,
+Bruno,"thank you so much, that really drove me crazy. can you explain why it fixed it, and why she didn't need to do it in the video?",2023-04-30T19:43:28Z,1,
+aulia mardhatillah,"Yesterday I click on a video called 'learning phyton for Beginners'. Today youtube's algorithm sent this video. I was so confuse but somehow listen to it and when I feel I understand something from this explanation, it makes me excited. A genius can make someone understand complicated things, I am very grateful.",2023-03-02T14:39:05Z,1,0
+1.234.567 PokemGaming,"Honestly, she is beautiful. The explanation is also perfect. Thank you",2023-03-01T06:24:13Z,0,0
+Revoosh Noj,I love her 😍,2023-02-28T18:20:24Z,0,0
+Seraf Dos Santos,Just Wow! An immense Thank you!!!,2023-02-22T00:22:10Z,0,0
+Emetycpei,,2023-02-21T13:10:17Z,0,0
+ICUP,"I've copied the code in the video and double-checked to see if mine is the same as hers but I still get this error when dealing with Classification NN using Tensorflow
+if val_loss < least_val_loss: # it says I am comparing a list to a floating point number. 
+Any help would be greatly appreciated.",2023-02-18T16:37:57Z,1,2
+ICUP,@TerribleTurtle thank you so much I'll try that,2023-03-24T14:14:00Z,0,
+TerribleTurtle,"I fixed it by changing the least_val_lost variable. It's a list holding two floats.       least_val_loss = [float('inf'), float('inf')]",2023-03-02T23:50:27Z,2,
+lim wei,I've been trying to learn ML for quite awhile but could never really grasp the algorithim. She explains how the formula comes about and why is it used in the classification or regression so well. My god. Thumbs up for sensei Kylie and free code camp!!!,2023-02-18T07:01:24Z,126,3
+Kunaal Aenugula,Yeah same I'm always interested in learning where the algorithms and concepts we use in machine learning comes from and she explained it the most clearly to me. Thank you!,2023-05-08T19:46:46Z,0,
+Siddhant Patil,@Networkserpent im not quite sure what you mean. ml is mostly stats. I guess both would be the right answer.,2023-05-06T16:37:49Z,0,
+Networkserpent,Does it includes stats too? Or just ml algorithms?,2023-03-17T21:16:13Z,1,
+Str1nX,Can anyone tell me how good machine learning course is this by using any reference?,2023-02-17T16:41:44Z,0,1
+Rayyan Eka Putra,"i have udemy courses on ML, i could say this covers the most practical of them (what you use in the industry) because it is for everybody. so yeah its good! but for more research-wise like for your thesis, you need an in-depth breakdown for it (no package or libraries use, create from scratch and optimize it), like in oversampling, outliers, etc, this still lacks of those explanations. conclusion: this is well made for us to get started!",2023-02-17T22:03:09Z,0,
+JCDC,"Enjoyed this but would have liked more explanation on the data preparation phase, had no idea why we were taking the steps we did",2023-02-16T14:08:35Z,1,1
+Rayyan Eka Putra,"lmaoo, thats why data sciencetist existed! their data mining skills are at their peak during their camp, so what they do is label, clean, balance the dataframe/dataset. ML engineers are responsible to fit that into our model, evaluate, and optimize to have better predictions. so that's why she doesn't really go into explanations on data because the main idea of this video is the ML Model",2023-02-17T22:06:36Z,1,
+Андрей Шумилин,The best course ever. THANK YOU!!!!,2023-02-13T17:53:49Z,1,0
+Shriram Balaji,"Hey, I am starting this video and I will update my progress over here(if you ask why, why not)...",2023-02-08T08:37:07Z,0,1
+Shriram Balaji,"I completed a hour video and for following i took almost more then 2 hours but then it was really fun, I learnt until KNN implementation and I will continue with Naive Bayes soon",2023-02-09T17:06:09Z,0,
+Mister Trayser,Half a year at the university better explained in a 4-hour video!,2023-02-05T22:58:56Z,1,0
+Manuel Amundaray,Super useful video tbh. Once she's started going off with the coding it was amazing . Hope to get to that level one day,2023-02-05T21:46:47Z,1,0
+Sudhanshu kushwaha,can anyone will tell is it worth to watch it for beginner and also in which language she is teaching 🤔🤔🤔,2023-02-04T07:51:28Z,0,0
+Gökay İşeri,I don't think this course for EVERYBODY.,2023-02-02T15:03:42Z,0,0
+فَيّصلٰ .,"same code same data , Different results (:",2023-02-02T06:32:01Z,0,0
+lazytocook,Good for those who already have basic knowledge but its certainly not for beginners.,2023-02-02T05:59:15Z,0,0
+Alon Goldreich,thank you!,2023-02-01T21:07:43Z,0,0
+CompScienceLearner ,"---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+<ipython-input-25-2c04f60a90a6> in <module>
+----> 1 train, x_train, y_train = scale_dataset(train, oversample=True)
+
+<ipython-input-24-7fe10ca10a08> in scale_dataset(dataframe, oversample)
+      4 
+      5   scaler = StandardScaler()
+----> 6   x = scaler.fit_transfom(x)
+      7 
+      8   if oversample:
+
+AttributeError: 'StandardScaler' object has no attribute 'fit_transfom'
+
+Please help. I keep getting this error message even after reviewing the clip over and  over again. This is oversample clip at around 40 minutes. Thanks.",2023-02-01T09:11:05Z,0,1
+Cant_Hit_This7,"Hey, I know it's a month later but you have a typo in your code. It's supposed to be fit_transform and not fit_transfom",2023-03-04T19:29:00Z,0,
+amol.studio,35:00,2023-01-31T15:31:37Z,0,0
+Phum_1492,I've watched this video since 3 am to 7 am,2023-01-28T18:57:36Z,0,0
+Coouge,This is for beginners?,2023-01-27T22:07:49Z,0,0
+Vinodbala Jain,Lazar machine,2023-01-26T14:19:11Z,0,0
+TheBattleBro,It is not outdated to say that there are only two genders.,2023-01-25T05:01:34Z,1,0
+Puneet Sharma,3:20 not clear what you actually did to import the dataset ?,2023-01-24T11:57:31Z,0,0
+Yellow Heart,29:39,2023-01-23T18:51:45Z,0,0
+Filipe Oliveira,When doing the val_loss < least_val_loss I get TypeError : '<' not supported between instances of 'list' and 'float'. Did anyone get this error as well?,2023-01-22T19:29:48Z,0,0
+Bhanu Kiran,from kmeans its hard :),2023-01-22T17:28:24Z,0,0
+Domingos Nhamussua,"on test and train set, why dont use the train_test_split from ski-learn to split the data instead of that complicated python function?",2023-01-22T00:11:38Z,0,0
+John,32:38,2023-01-21T18:56:06Z,0,0
+Ksee,Lol😂 she had to be careful because people might get mad thinking there is only 2 genders😂,2023-01-15T08:41:53Z,0,0
+Ksee,Yeah but what can I build and what problems can I solve,2023-01-15T08:28:06Z,0,0
+css,18:13 anyone get the silicon valley reference,2023-01-13T20:41:53Z,0,0
+Estève Arru-Gallart,Accessible to absolute beginners....,2023-01-13T16:15:21Z,0,0
+Seeker,Her voice and way of teaching is so soothing. I fell asleep listening to her and I am gonna watch this every night.,2023-01-13T09:06:38Z,0,0
+Randell Berry,What is the name oof the presenter?,2023-01-12T15:34:04Z,1,0
+Youssef Fellahi,"too weak , it's just confusing course with 0 math",2023-01-11T23:40:18Z,2,0
+Pappu,Hi,2023-01-10T13:39:52Z,0,0
+theseal12,"This is so great!! Best machine learning video I have seen by far!! 
+Good job on this :D",2023-01-10T08:39:44Z,2,0
+Kishore Babu Ambika,superb,2023-01-10T00:30:13Z,0,0
+walking duck ,"i understood nothing, sorry not a good course",2023-01-09T20:39:12Z,1,0
+EQ3Q,Can ChatGPT do this? I can't code to save my life! :p,2023-01-08T09:22:18Z,0,0
+Jean-Baptiste Lasselle,"Your ""multi linear"" regression, actually is linear regression along a hyper plan, right ?",2023-01-08T03:36:06Z,0,0
+Jean-Baptiste Lasselle,"Isn't over sampling, kind of is fake data, so its making the machine learning ""wrong things"" : it learns things thzat are not truie, so it's gonna predict things that will reveal not true ?",2023-01-08T01:51:30Z,0,0
+coolz boys,Why you used python ??,2023-01-07T13:01:34Z,0,1
+Agustín Videla,What were you expecting her to use?,2023-02-26T06:36:57Z,0,
+CodewithGuillaume,Kylie is such a mind…. Thank you!,2023-01-07T11:04:44Z,0,0
+hiiceo,china town,2023-01-04T01:03:42Z,0,0
+Yankee Gohome,Did I spot the black adwaita cursor in the video?,2023-01-03T08:05:07Z,0,0
+olokor wisdom,I'm having issues with imblearn.oversampling,2023-01-02T15:04:59Z,0,0
+Mark Maples,"Great course, excellent combination of material with application examples.",2022-12-31T20:59:10Z,2,0
+SHAIKRABNAWAZ,Good video,2022-12-31T19:56:11Z,0,0
+Kevin Shelley,"Enjoy these thorough, clear, visual explanations. She makes what we do accessible to beginners and a perfect refresh for seasoned users.",2022-12-31T16:15:38Z,35,0
+Mark,"I am up to 2:03:08 and I run plot_history(history), I have done exact same as you but I get the message 
+
+NameError                                 Traceback (most recent call last)
+<ipython-input-42-a8489d1127d4> in <module>
+----> 1 plot_history(history)
+
+NameError: name 'history' is not defined
+
+how can I fix this?",2022-12-31T07:27:31Z,0,1
+Liu Junhan,"history = nn_model.fit(X_train, y_train, epochs=epochs, batch_size=batch_size, validation_split=0.2) # you can add another verbose=0 parameter, if you dont want to view the iterations",2023-03-17T07:48:41Z,1,
+拉麵,Thanks for making the excellent course!,2022-12-30T07:24:49Z,3,0
+VoltageLP,"She's like 20 years old, how could she have worked in MIT, CERN e t c already?",2022-12-30T02:21:14Z,0,0
+ABU BAKAR HASNATH,"28:31   35:28 train, validation, test dataset 1:15:33",2022-12-29T15:50:22Z,0,0
+Y. E.,"one of the best AI videos i have seen, thank you",2022-12-29T09:04:17Z,2,0
+pearl,she is who i want to be,2022-12-29T08:45:17Z,0,0
+Edward Wong,"Gamma was encoded as 1 in this line --> df['class'] = (df['class'] =='g').astype(int)
+Why did we NOT need a line for envoding 0 for Hadrons?",2022-12-29T08:13:08Z,2,0
+R R,Awesome,2022-12-28T19:50:49Z,0,0
+Rose M.,Thank you so much for this amazing video! I had to take a nap halfway through because there was so much to digest haha,2022-12-27T22:05:20Z,0,0
+no comment,I have no idea in programming but understood little bit. It's exciting 😊,2022-12-24T14:56:13Z,1,0
+Luciano Vlap Souza,"this is perfect! By far the best I´ve found out there, such a clear and complete explanation. Great teacher.",2022-12-23T10:48:40Z,8,0
+Crypto  & Web3,Michio Kaku. Do you happen to know this person?,2022-12-22T15:56:39Z,0,0
+Moses Oghene,Thank you so much. IS IT POSSIBLE TO SHARE YOUR SLIDES WITH US?,2022-12-22T06:58:33Z,0,0
+André Rodrigues Pereira,"I am following along this exercise, and I am writing everything ipsis verbis like in her example. Yet, I get the following error: 
+AttributeError                            Traceback (most recent call last)
+Cell In [322], line 1
+----> 1 train, x_train, y_train = scale_dataset(train, oversample=True)
+      2 valid, x_valid, y_valid = scale_dataset(valid, oversample=False)
+      3 test, x_test, y_test = scale_dataset(test, oversample=False)
+
+Cell In [321], line 2, in scale_dataset(dataframe, oversample)
+      1 def scale_dataset(dataframe, oversample=False):
+----> 2     x = dataframe[dataframe.columns[:-1]].values
+      3     y = dataframe[dataframe.columns[-1]].values
+      5     scaler = StandardScaler()
+
+AttributeError: 'numpy.ndarray' object has no attribute 'columns'
+
+How can I correct it? 
+Thank you!",2022-12-21T17:53:09Z,0,1
+Liu Junhan,Try running the import codes again,2023-03-17T07:50:03Z,0,
+Sohail Danyal,enjoying the sound of the buttons when she types,2022-12-21T17:26:57Z,0,0
+Dani Afriyadi,I wish my lecturer taught me ML like you did 😢,2022-12-21T01:46:46Z,0,0
+Edward Wong,"Ironically, she is so humble as well. She is great. Thanks for making this.",2022-12-16T15:17:11Z,2,0
+Henry Tirla,Loving this course. Very Intuitive and practical.,2022-12-15T05:06:08Z,10,0
+Nils Sens,"@50:00 I have a feeling that k-NN could use some theta, because a deviation from a 0 deg angle might represent ""otherness""....",2022-12-13T08:30:52Z,1,0
+Nils Sens,chocolate as illustration for diabetes cases is funny though :D,2022-12-12T20:26:45Z,0,0
+Gel D,my 7th day - still not finished.  Just so nice to see someone do ML work live! Thank you,2022-12-08T21:38:57Z,69,5
+Zaira Laraib,watch at 2x speed,2023-02-16T20:48:20Z,1,
+kritika _aryal,@Gel D A,2022-12-22T15:03:03Z,0,
+kritika _aryal,@Liu david 8the,2022-12-22T15:02:46Z,1,
+Gel D,@Liu david jut dont have the time to see the whole 3 hours in one shot.  I had to watch few minutes at a time.  :),2022-12-09T12:51:13Z,6,
+Liu david,r u a programmer before?,2022-12-09T11:50:01Z,2,
+Masete Nicholas,Thank you.,2022-12-07T10:41:35Z,1,0
+chak alvin,"Thanks for the explanations! it is really detailed, her tone is comfortable, I can easily to understand what she said and she elaborates each steps (it is so important as every self learner can know the rationale behind each steps).
+Hope I can watch another lesson videos of this editor!",2022-12-06T15:32:14Z,8,0
+English for beginners,"₹ ‏100.00
+Thanks for an amazingly simplified approach to ML 👍",2022-12-03T12:17:37Z,14,2
+Arjun Rana,₹500.00 from my side,2023-02-05T03:40:20Z,1,
+Harsh Darji,She got the money.,2023-01-16T23:12:26Z,0,
+E M,ML is not for everybody.,2022-12-02T16:00:19Z,0,0
+gnnr,Anyone know what the grid paint tool she used for the notes is?,2022-11-26T11:52:22Z,0,0
+Yasya Indra,2:31:35 favorite part of this video,2022-11-25T13:57:20Z,0,0
+TheYourbox,It's so sweet to see young people talking about machine learning. Let's talk about data. Consistent data to do ML. Well... it must be around. No it isn't!,2022-11-25T00:50:13Z,0,0
+Victor Manuel Grijalva Altamirano,I can't download the data set. The web is offline!,2022-11-23T17:00:33Z,0,0
+Ata Tekeli,Is there any way we can install and use tensor flow packages in PyCharm with ARM64 Apple M1 computers,2022-11-22T21:42:25Z,0,0
+Mai Reaksa,i look like a good slide can i get it thank,2022-11-19T14:23:00Z,0,0
+Hans Muster,I can only give thumbs up once :/,2022-11-19T09:49:29Z,0,0
+tech.a2z,Tysm for covering sooo much so quickly and it was all clear and to the point and I cant appreciate it enoughhhhhh!!!!!,2022-11-19T06:43:55Z,1,0
+Rifqi Mujahid,shes brilliant but the accent is so unbearable xD,2022-11-17T03:44:44Z,1,0
+Ata Tekeli,Should we use all the code below from preparing data to SVM and beyond until another dataset is opened?,2022-11-16T13:21:03Z,0,0
+Asmaa Refaat,You are an amazing teacher and you actually look like Brian Yu from CS50!!,2022-11-13T17:04:58Z,0,0
+Harshit vijay,Can You please list the softwares used while teaching the course,2022-11-13T10:18:45Z,1,0
+Clover,This is A W E S O M E 😍,2022-11-12T15:10:00Z,0,0
+Typically Thomas,I challenge the notion that this is accessible to anyone. I understand the material but I'm experienced with both ML and Python and yet sometimes I really struggle to follow. I don't think absolute beginners get much out of this. At least not anything they couldn't get from other sources better aimed at their level,2022-11-12T12:42:44Z,3,0
+annie sanket,awesome video.....she literally made it simplest video on machine learning,2022-11-11T09:49:40Z,0,0
+kiwi welch,dam girl you got more then a brain that I want to pick,2022-11-11T02:33:13Z,0,0
+Jim,Vocal fry,2022-11-10T08:02:02Z,0,0
+Jonathan Escobedo,"A great introduction into machine learning, even as someone who is into the tech industry, I am not too familiar with machine learning.",2022-11-06T23:41:28Z,8,0
+Belal elhagrasy,"Guys what is the best book or free course to learn computer architecture?
+
+Thanks 🙏",2022-11-06T19:20:37Z,0,0
+Cedric Henry II,Program...machineGun.,2022-11-05T04:01:28Z,0,0
+Cedric Henry II,"Cause ""machine learning"" sounds more convincing than ""artificial intelligence.""",2022-11-05T03:48:12Z,0,0
+My Apex Top Flop Funny Plays #Shorts,😂😎😀🔥❤️👍 QQ 😂 QQ aæà@😂😂😂😂😂😂😂😂😂àqaaa,2022-11-03T04:36:40Z,0,0
+Behind the Scene,🔔 Looking Fot it  ❤️,2022-11-01T07:22:09Z,0,0
+vignesh parameshwaran,I'm in love,2022-10-30T19:46:01Z,0,0
+Aimal Khan,Nice❤❤❤,2022-10-30T17:57:44Z,0,0
+IDIHC,This is why I gave up programming.,2022-10-29T05:56:25Z,1,0
+stephanie doan,Ji wasssup,2022-10-29T05:25:47Z,0,0
+bouchnak jihed,epic tutorial Kylie wow,2022-10-28T13:20:23Z,0,0
+Henry Thomas,"Thank you a lot for this video. This is very interesting and informative. Keep posting like those amazing videos, this is awesome.",2022-10-28T10:54:41Z,5,0
+Onepiece barca,"21:19
+blood pressure: 0",2022-10-27T19:43:17Z,0,0
+H. T.,Wow a smart person.,2022-10-27T12:01:25Z,0,0
+the boss king,it work on my pc thx bro vеry much,2022-10-27T11:31:11Z,0,0
+chris,Joel hicks now..,2022-10-27T10:51:32Z,0,0
+Joshua Thomas,Tbh best channel on YouTube,2022-10-27T05:54:42Z,0,0
+Eric Koontz,I really like the presentation of your video the time tou take to explain and build the concepts is spot on to get from zero knowledge to yes i understand this.,2022-10-27T00:25:16Z,0,0
+dont-want-no-wrench,"Kylie, if you shake the laptop like that the bits will fall out, just a headsup",2022-10-26T20:32:42Z,0,0
+The.ConstantPursuit,I have no idea how my YouTube algorithm brought me here while I was sleeping but it made for some strange dreams,2022-10-26T16:02:06Z,250,7
+Janvi my adventures,@Full Metal Theorist like same I am not doing a joke,2023-03-21T06:32:55Z,1,
+COOK iT EAT iT,"I once fell asleep watching a space and time tv shows , in the dream I could understand what the guy was explaining in the docu , it’s crazy how the real speech of a person is translated in a dream .",2023-03-19T23:12:32Z,2,
+Wilton Batiquin,Same here haha. I woke up with this vid.,2023-03-16T03:16:00Z,1,
+Keys for Wealth,"@Edward Edward Like Flat Earthers, Ancient Aliens, and Paranormals…
+Its a real gift when the youtube algorithm leads you to IT Courses - trust me ;)",2023-01-19T05:28:18Z,7,
+Edward Edward,@Keys for Wealth like what? I’m not curious,2023-01-18T06:22:50Z,1,
+Keys for Wealth,"You guys were really lucky.
+Usually, Youtube algorithm leads me to much, much worse channels when I am sleeping.",2022-12-28T16:45:49Z,12,
+Full Metal Theorist,"I fell asleep once and ends up on this channel with a video about how to make a neural network playing.
+
+
+There was also a time when I fell asleep watching a video about nihilism on repeat and a character in my dream said what the video was saying word for word. It freaked me out.",2022-12-25T09:23:42Z,20,
+Shawn,"Just because you know how to drive a car does not mean you know how a car works.
+This is essentially a driving lesson posing as an automotive engineering lesson.",2022-10-26T08:50:50Z,1,1
+Tom Kingston,This video is a crash course into tools used in data science. If you want to know what’s going on under the hood there is no way someone can teach it in just three hours. For something like that you most likely have to take several courses.,2022-10-27T08:01:35Z,2,
+Madarganj360,Holy crap it actually worked!,2022-10-25T18:27:31Z,0,0
+simon lukiko,Good,2022-10-25T16:06:46Z,0,0
+Aznood,oh no I'm not everyone,2022-10-25T11:48:14Z,0,0
+AYO-EXOITC,El presidente,2022-10-25T05:02:59Z,0,1
+TsarBlyatinum,gus fring,2022-10-27T21:34:31Z,0,
+james daniels,"very well, I liked everything",2022-10-25T02:29:47Z,0,0
+Sanjay Meena,This worked incredibly well! I can finally play it thanks,2022-10-24T21:57:43Z,0,0
+MALİ,thank you so much dude you're a god,2022-10-24T19:51:35Z,0,0
+Regulus Sirius,"Went this course  I would rate  at 3 or 3.5 out of 5.
+What could have been better ...
+
+An in-depth mathematical  analysis  on the  ML algorithms should be explained as it is very much essential  to  understand  the inner working  of algorithms.
+
+Use of scikit learn  package should have been done in more detailed  way like explaining  the  hyper parameters  and how to tune them to increase  accuracy.
+
+And an Exploratory Data Analysis  should be done and explained
+ 
+And use more of visualization  using matplotlib  for KNN,navie Bayes and SVM for the given data (not from the presentation  point of view )
+
+Use of new data sets like this is a positive point .
+Would like to see more of ML on scientific  data sets like Geospatial  data , astronomical  data . 
+
+The course is like an overview  or quick glance of ML algorithms",2022-10-24T15:54:52Z,1,1
+Lam Nguyen,"this course is like if you have 30 minutes to go buy groceries, cook it and presenting it on a plate for Gordon Ramsay",2022-11-15T00:47:14Z,0,
+Abhisek Roy,Your ppt is also awesome. Can you give that one 🙂,2022-10-24T14:57:40Z,0,0
+David Grate,Thanks!,2022-10-24T07:00:55Z,0,0
+Ken Wigger Another Ancient Gamer,This was definitely valuable! Thanks for sharing Adnan!!!,2022-10-24T06:25:05Z,2,0
+koei,Bro is teaching leet code,2022-10-24T05:53:06Z,0,0
+Nazmi adnan,"OMG, it really worked. Thank you so much!!",2022-10-24T04:15:50Z,1,0
+ahari bd,Ima download it thanks for sharing!!,2022-10-23T20:06:08Z,0,0
+geer pri,omg,2022-10-23T19:16:13Z,0,0
+Emily Nova,omg,2022-10-23T19:03:13Z,0,0
+Aleksandra Socha,Thanks works fine. Greetings from Italy,2022-10-23T04:59:03Z,0,0
+Sanjay Meena,Thank you so much you really help me :),2022-10-23T02:15:30Z,1,0
+Christiana Vasa,Absolutely brilliant. As mentioned in the intro Kylie is a true genius. god bless her,2022-10-22T22:41:35Z,3,0
+donald canonoy,Thanks! Your video content is the safest and most useful <3,2022-10-22T19:32:49Z,0,0
+Abhishek,"getting error on  df[""class""] = (df[""class""] == ""g"").astype(int)
+KeyError: 'class'
+
+
+The above exception was the direct cause of the following exception:
+
+Please help",2022-10-22T19:19:45Z,0,2
+Lam Nguyen,did you include class column in the list?,2022-11-15T00:47:51Z,0,
+Minh Lê,"I think there's something wrong with the data. Take a look at the df you may find something wrong with the data type of df[""class""].",2022-11-02T19:43:27Z,0,
+zafar78600,what?,2022-10-22T17:01:22Z,0,0
+Marion Deleon,Great video...stayed up all evening watching; wondering if you would demonstrate ketosis distribution measures or is that too difficult to script out?,2022-10-22T11:19:17Z,6,0
+Mishaal Al Darei,Aaahhh thooooo,2022-10-22T01:32:23Z,0,0
+SaschaHuber Junior,"It really worked for me after I look and try some tutorials, yours is the one that worked. Owe you a lot.",2022-10-21T12:32:24Z,0,0
+AHMAD MPONDA,She's excellent.I wish she do deep learning tutorials,2022-10-21T03:35:39Z,1,0
+Likhit Porwal,now i am in a good mood,2022-10-21T02:06:53Z,1,0
+xavi sanchez,"This emoji 🤑 for qualitative data purposes( to specify greed for the algorithms) , to use algorithms to tackle greed and amazon base,corporate business wil be key for a healthy planet’s future.",2022-10-20T20:42:26Z,0,0
+Daniel Kuenstler,Kylie and this course are f**ing AWESOME!!! So clear explained!! Thank you so much for sharing!,2022-10-20T19:22:33Z,1,0
+Abdousamad MOHAMED,Thank you for sharing this tutorial,2022-10-20T05:09:45Z,0,0
+movie time,Bro I subbed and hit the bell,2022-10-20T04:20:41Z,0,0
+jonathan priest,not in ANY way for everyone,2022-10-20T03:20:15Z,1,0
+Aneesh Jonwal,I was so excited to see this course because usually freecodecamp courses are for beginners but this one is not. You need to have good knowledge of numpy and other libraries to be able to learn more from this course. Really disappointing. They should let users know the basics that are required for this course. But ultimately this is a very good course and it's free so really appreciate it guys. Thanks,2022-10-20T02:37:20Z,16,2
+Peter Turner,I would never complain about free education - do one of their Python/numpy courses and return here. Better to build on what you know already than every course starting from 0 :),2022-10-26T20:57:11Z,2,
+Zachary,I think most people understand intuitively that something as complex sounding as “machine learning” will require prior knowledge. Lol. It’s like walking into an “Intro to Quantum Physics and Relativity” class and expecting to get by without understanding Newtonian physics or calculus.,2022-10-25T14:11:54Z,12,
+sura cover,AMAZING,2022-10-19T19:21:53Z,0,0
+nguyen hung,Like,2022-10-19T06:02:25Z,0,0
+Jaxi,She is beautiful as well as brilliant.,2022-10-18T07:59:48Z,1,0
+md bachchu,clear guide worked well with for sharing.,2022-10-18T06:50:33Z,0,0
+Mustafa Ghoneim,Can we have the slides?,2022-10-18T06:39:20Z,0,0
+poop,ok now what if we just did things instead of making machines to do things,2022-10-18T04:10:41Z,0,0
+Peter Turner,Great course! Thank you for the hard work!,2022-10-17T23:41:31Z,7,0
+Ashwin music,Dedicated to https://youtu.be/nepLycvKRVQ,2022-10-17T17:29:44Z,0,0
+Ashish Johnson,could u share this slides deck ?,2022-10-17T08:57:52Z,0,0
+CHAT TIM ON INSTAGRAM,"You must contact the previous owner and have them remove the iCloud activation lock. This is a deterrent to theft or loss.
+
+If you cannot reach them, request *MOE* he will unlock your device or you will not be able to use the phone.
+
+
+Good luck❤😊😊",2022-10-17T00:41:38Z,0,0
+Johny Raharijim,"thank you very very very much, you help me a lot",2022-10-16T22:22:18Z,0,0
+Send Booth,"Is there a summarised version of this lesson? perhaps for someone that isn't intending to gain a fullon knowledge but gain a sufficient, generalized idea of every subject Kylie is covering :),",2022-10-15T12:56:57Z,6,3
+Send Booth,@Alexander Marquez Rodriguez haha yeah man dale,2023-02-21T21:39:25Z,0,
+Alexander Marquez Rodriguez,More ? are you sure ?,2023-02-21T21:26:02Z,0,
+Zachary,"Based on what I’ve looked into regarding this subject, this IS the summarized version.",2022-10-25T14:00:12Z,12,
+AllForArt. YS,"Hi  Kylie, Can you please send ML ppt slides?",2022-10-15T11:39:50Z,0,0
+Kőrösi Csoma Sándor Közművelődési Egyesület ,Big fan bro,2022-10-14T02:15:29Z,0,0
+efe sendil,"Hello, I am getting bad results from SVM, low-accuracy like 0.54 etc. Do you have any idea about it ?",2022-10-13T21:17:41Z,0,0
+The Roaming Kilt,"I had to stop watching. For someone so smart, she should look up infection and disease. COVID is an infection... NOT A DISEASE.",2022-10-13T10:41:15Z,0,1
+Agustín Videla,ok,2023-02-26T06:38:48Z,0,
+Frodo B,Many thanks madam!,2022-10-13T07:52:13Z,0,0
+Orange Tick,super adolescent,2022-10-13T04:32:37Z,0,0
+Thabang Makhofola,"Why is the term ""sample"" used to describe a row vector?",2022-10-13T01:53:22Z,0,0
+Thabang Makhofola,Is the validation set taken from the training set?,2022-10-13T01:23:24Z,0,0
+A Andres Riera,"I cannot focus on the course you 're so pretty while explain, my bad lol. Great content and clear explanation.",2022-10-12T16:46:16Z,0,0
+Jose Martinez,Hi I very interested in learning more. Thank you for your hard work God bless you.,2022-10-12T15:16:07Z,0,0
+Titi Moon,"Thank you for sharing this video, but this is not for absolut beginners! you definitely need some prep before watching this video. Like  I am a programmer myself but I was lost when she started to import many things without explaining what's she doing and it's just an example.",2022-10-12T09:22:07Z,0,0
+Debanjan Mondal,"18:10 As soon as you mentioned ""Hot Dog or Not Hot Dog"", it instantly reminded me of Jian Yang's classification model from the HBO comedy series Silicon Valley. 😂
+But this course is very useful and easy to grasp for beginners like us. 👍👍",2022-10-11T17:11:37Z,26,2
+discovandal,love this XDD,2023-05-16T21:37:45Z,0,
+Nishchay Gupta,Same here bro. Jian Yang is a legend,2022-11-17T15:12:39Z,5,
+Edward J. Warden,Does a data scientist necessarily need to learn about model creation?,2022-10-11T16:37:33Z,0,0
+Cymer,"Could you explain what the things are that you are labeling and importing as you are doing them?
+
+It helps me to make connections in my brain if I can associate what you are doing with the reason behind it. Otherwise it is just an exercise in memorizing and just replicating what you are doing without any understanding. 
+
+Thank you for sharing and all the effort put into it.",2022-10-11T10:12:07Z,1,0
+Jean-Jacques Rousseau,"Great tutorial. However, I’m having and issue between cols and columns that makes [29] not work for me AttributeError: ‘‘numpy.narray’ object has no attribute ‘columns’",2022-10-10T17:55:10Z,1,1
+André Rodrigues Pereira,+1,2022-12-21T17:16:07Z,0,
+Priyanshu Dutta,36:57,2022-10-10T12:50:32Z,0,0
+A K RAGHAVENDRAN,thanks,2022-10-10T09:04:26Z,0,0
+Mr Mime,At 43:40 she edited multiple lines at once?! how did she do that? :D,2022-10-08T15:22:19Z,1,2
+Ali,Hold ALT and left click everywhere you want to edit,2023-01-10T21:35:38Z,0,
+Mr Mime,someone pls tell me ^^,2022-10-26T09:15:39Z,0,
+Anshuman Choudhary,"Could we get a version where we learn everything thing from scratch? Like without using Tensor or anything like that? Just python,  pure mathematics,  and libraries which help with calculations?",2022-10-06T13:21:44Z,2,2
+Anshuman Choudhary,@Peter Turner Can you recommend something?,2022-10-27T03:35:06Z,0,
+Peter Turner,This isn't the only course on the internet,2022-10-26T21:04:43Z,2,
+Luffy Monkey.d.,"Can you add the caption for this video, please",2022-10-06T03:34:31Z,0,0
+RH CIPHER,She’s such a good teacher.,2022-10-05T21:16:17Z,0,0
+Priscilla Muli,"Hey, thanks for sharing. Great video. I get an error at this code: train, X_train, y_train = scale_dataset(train, oversample = True)
+ValueError: input contains NaN, infinity or a value too large for dtype ('float64')
+Does anyone else face this issue /know how to solve it?",2022-10-04T15:06:14Z,3,1
+JO,"It might be a problem with your dataset, and not the code. Try doing some basic pre-processing on it. It might be a missing value, or a large number somewhere. Good luck!",2022-10-28T21:23:40Z,3,
+Neima Mohamed,where can I find the slide,2022-10-03T10:45:03Z,0,0
+Hernán D López A,Thanks!!!,2022-10-02T21:16:27Z,0,0
+Epicure Hermit,"Hello, im getting error near if val_loss < least_val_loss. its saying type error as '<' is not supported between list and float.",2022-10-02T13:19:22Z,1,5
+Priscilla Muli,@Aurélien thanks for explain,2022-10-19T15:52:34Z,0,
+Aurélien,"check her notebook in the links, she added [0] at the end of val_loss assignment",2022-10-19T14:52:34Z,1,
+Priscilla Muli,@Epicure Hermit Thanks for your response. The code you've shared is similar to the one she shared in the video. Kindly how do I go about checking if entire data is correct?,2022-10-07T07:39:53Z,0,
+Epicure Hermit,"@Priscilla Muli check if entire data is correct. 
+
+least_val_loss = float('inf')
+least_loss_model = None
+epochs = 100
+
+for num_nodes in [16, 32, 64]:
+    for dropout_prob in [0, 0.2]:
+        for lr in [0.01, 0.005, 0.0001]:
+            for batch_size in [32, 64, 128]:
+                print(f""{num_nodes} nodes,                     dropout {dropout_prob}, lr {lr}, batch_size     {batch_size}"")
+               plot_history(history)
+               val_loss = model.evaluate(X_valid, y_valid)[0]
+                if val_loss < least_val_loss:
+                     least_val_loss = val_loss
+                     least_loss_model = model",2022-10-07T01:10:25Z,0,
+Priscilla Muli,"Hello, me too. Did you get a solution to the error please share if you did?",2022-10-06T15:30:21Z,0,
+Husein,👍,2022-10-02T06:32:09Z,0,0
+Subramanian Chenniappan,Thanks . I am an experienced java lead . I always wanted to learn Machine learning,2022-10-01T18:12:33Z,4,0
+mahipal mahato,"36:55 , 44:47, 52:53, 1:19:21, 1:55",2022-10-01T16:01:23Z,0,0
+Matrixkiller91,"Serious question, do software engineers use or implement machine learning in their work or is machine learning strictly a data science related field? Thanks in advance",2022-10-01T07:03:49Z,1,1
+Tom Kingston,In general software engineers usually don’t do anything with machine learning. Machine learning leans very heavily into data science. There are sub groups of software engineers such as machine learning engineers who write libraries which data scientists use. But to get in that field requires a lot of study and schooling. Not only do you have to know how to write software but also have to have a solid foundation in data science.,2022-10-27T07:48:57Z,2,
+TONY - Go Code!,Thank you for sharing ❤️,2022-10-01T00:54:30Z,0,0
+aam2022,Thanks for an amazingly simplified approach to ML 👍,2022-09-30T20:11:40Z,219,1
+Peter Turner,If only everyone recognised the value of courses like this as you have done. First time I've seen that thanks/donation button which is sad but now will know how to contribute back! Thanks for letting me know that exists :D,2022-10-26T21:06:52Z,35,
+Bayastan Tursaliev,Please make English subtitles,2022-09-30T17:32:29Z,0,0
+elu1,She is so smart and makes things simple to understand👍,2022-09-30T13:42:52Z,1,0
+Key Scribbles,"This is amazing. I'm a data analyst and had some formal training in machine learning, but my classes were really surface and ""teach yourself"" style. This is so much better. I also find it easier to listen to women, so that's a bonus lol",2022-09-30T12:29:27Z,11,0
+MrNegimaki,You hop over a few items that might have benefited from a couple seconds of explanation for non-mathy newbies (e.g. p vs p/(1-p) in the logistical regression portion) but otherwise excellent!,2022-09-29T20:17:33Z,3,0
+Andrew Tasso,"For the KNN classifier when finding distances, the axes should reflect the scaled values rather than absolute distances right? I guess the numbers provided were simplified for illustrative purposes. @52:10",2022-09-29T07:28:14Z,2,0
+WilliamDev Js,1:19:27,2022-09-29T00:37:28Z,0,0
+Tawfick Raad,You going to have a great future.... thank you,2022-09-28T21:49:39Z,0,0
+David Tindell,"thank you. will also check out her own channel !
+...",2022-09-28T17:42:55Z,0,0
+Chtpt,"Thanks for this great tutorial freecodecamp. We also need statistical data analysis with Python and/or R (especially  descriptive statistics, probability distributions and hypothesis tests , anova etc... )",2022-09-28T13:52:45Z,17,0
+THUNDER 7,at 33:57 the for each loop variable name should be feature right?,2022-09-28T13:13:55Z,0,0
+Marc vb,What programme is used to write al the graphs and notes? Thanks for the great lesson.,2022-09-28T07:49:46Z,1,1
+Dominic Bühler,I would also be very happy to know that 🙂,2023-01-03T15:42:47Z,0,
+Epicure Hermit,cute girl is back again. :) happy to code following her.,2022-09-28T07:10:43Z,1,0
+japrogramer,Awesome explanation 😀,2022-09-27T17:00:52Z,0,0
+Кодиржон Акбаров,cute 😜,2022-09-27T10:39:09Z,0,0
+king of his kingdom,We need an android development course  please,2022-09-27T10:35:35Z,0,0
+Kaafoe Zoker,I understand not answering. Its continuation of the python class anyway.,2022-09-27T08:23:53Z,0,0
+Абв Абв,13:10 you are walking on thin ice,2022-09-27T06:47:16Z,0,0
+Pascal Mersch ,"I love your energie , how you explain",2022-09-27T05:32:42Z,0,0
+lai20012002,I want to say it is awesome,2022-09-27T03:56:18Z,0,0
+Kaafoe Zoker,Keep the videos coming good job.,2022-09-27T03:06:44Z,0,0
+Andy Morales,Thank you for your help !! 😸💓💓,2022-09-27T02:35:27Z,0,0
+Salomo Sitorus,"Kylie explains better than my professors LOL. Great job FCC and Kylie, thank you very much",2022-09-27T02:24:45Z,12,1
+Lam Nguyen,i like to see what your prof thinks when they know about this lol,2022-11-16T07:02:58Z,1,
+I know python,"⌨ (0:00:00) Intro
+⌨ (0:00:58) Data/Colab Intro
+⌨ (0:08:45) Intro to Machine Learning
+⌨ (0:12:26) Features
+⌨ (0:17:23) Classification/Regression
+⌨ (0:19:57) Training Model
+⌨ (0:30:57) Preparing Data
+⌨ (0:44:43) K-Nearest Neighbors
+⌨ (0:52:42) KNN Implementation
+⌨ (1:08:43) Naive Bayes
+⌨ (1:17:30) Naive Bayes Implementation
+⌨ (1:19:22) Logistic Regression
+⌨ (1:27:56) Log Regression Implementation
+⌨ (1:29:13) Support Vector Machine
+⌨ (1:37:54) SVM Implementation
+⌨ (1:39:44) Neural Networks
+⌨ (1:47:57) Tensorflow
+⌨ (1:49:50) Classification NN using Tensorflow
+⌨ (2:10:12) Linear Regression
+⌨ (2:34:54) Lin Regression Implementation
+⌨ (2:57:44) Lin Regression using a Neuron
+⌨ (3:00:15) Regression NN using Tensorflow
+⌨ (3:13:13) K-Means Clustering
+⌨ (3:23:46) Principal Component Analysis
+⌨ (3:33:54) K-Means and PCA Implementations",2022-09-27T02:16:22Z,275,13
+Siddhant Patil,@IAmBadAtEverything I think the commentor copied the timestamps from the description to make it easier for mobile users.,2023-05-06T02:05:54Z,0,
+IAmBadAtEverything,"@Badr Mourad it was not a negative comment it was just and advice
+check the description and pinned comment before doing this
+you might be wasting your time",2023-04-29T08:46:44Z,0,
+Badr Mourad,@IAmBadAtEverything I still see no need to put a negative comment,2023-04-29T08:15:08Z,0,
+IAmBadAtEverything,@Badr Mourad look at the description,2023-04-29T07:40:30Z,0,
+IAmBadAtEverything,@Badr Mourad ok but there are timestamps is the video,2023-04-29T07:40:17Z,0,
+Badr Mourad,"@IAmBadAtEverything no, you said ""just watch the hole video""
+I will still answer your (question) : some people can be interested in only one part of the video, so now they can directly go to it.
+In the end the dude made an effort to help us, so no need to be mean.",2023-04-29T07:34:15Z,0,
+IAmBadAtEverything,@Badr Mourad its a question,2023-04-29T06:56:49Z,0,
+Badr Mourad,​@IAmBadAtEverything how is your comment useful?,2023-04-29T06:16:08Z,1,
+IAmBadAtEverything,"how are these things useful?
+i dont see how
+just watch the whole video",2023-04-21T07:30:00Z,1,
+Solomon Varte,​,2022-11-07T18:45:51Z,0,
+Solomon Varte,Ihihhhih,2022-11-07T18:45:30Z,0,
+Solomon Varte,Ihihhhih,2022-11-07T18:45:25Z,0,
+Diana Betty,Thanks,2022-10-29T12:29:34Z,0,
+585ghz,😲 thanks for all 💕💕,2022-09-27T01:01:02Z,0,0
+Bruce,"Yes, this video is  for me because I am in the set of ""everyone""",2022-09-27T00:49:56Z,0,0
+eat-myshorts,Hope Shawn Hymel will share his knowledge,2022-09-27T00:15:07Z,0,0
+ Sangeetha Studio,"You are literally the best, I've been looking for a tutorial for three days and yours works",2022-09-26T23:50:54Z,4,0
+IMPOSTER Emil,"Kylie
+",2022-09-26T21:53:58Z,0,0
+Colin Dante,"There are no geniuses in this world let alone in regard to this subject and its all in the eye of the beholder. As one would state in an analogy ""a smart ant in the room"".",2022-09-26T21:48:48Z,0,0
+rameez ahmed,@Freecodecamp you're always teaching us great skills with great mentors. Salute sir 🤗. Kindly upload the electric vehicle course if you have a great mentor available.,2022-09-26T20:41:16Z,38,0
+Thomas,"""Please feel free to correct me in the comments"" your resilience must be nothing short of your intelligence. Mad props.",2022-09-26T20:26:41Z,1,0
+Vladimir OnOccasion,'as a community let's all enslave yourselves together in a virtual unreal world for the gain and betterment of a small controlling  few and call it- for everyone'. :D,2022-09-26T19:52:27Z,0,0
+Afsal Nihal,didnt feel like for beginners,2022-09-26T19:42:01Z,3,0
+Boqiyev Feruzbek,Thanks 😊,2022-09-26T19:01:57Z,0,0
+Prince Kumar,Bow to the founder's Motivation to put all this on YouTube,2022-09-26T18:51:08Z,1,0
+Utkarsh Jha,Was waiting for this,2022-09-26T18:22:42Z,0,0
+Haseeb Khan,I fell,2022-09-26T18:03:57Z,0,0
+Muhammad Darab,"It would be very beneficial for beginners to make Shallow, Deep and Convolutional Neural Networks from scratch. Because by doing so, they can learn many activations and their derivatives, forward propagation, and backward propagation. Along with, the dimensions of matrices and what is actually happening at each layer. Later on, they can shift to Tensorflow or Scikit when doing professional learning but I do advise to at least implement a neural network from scratch.",2022-09-26T17:56:35Z,215,20
+Michael Joseph,Hey how’s it going do you have a LinkedIn or Social media where I can message you?,2023-03-08T19:55:21Z,0,
+Muhammad Darab,@Carol Sure send me your email. I will mail you both Shallow NN and Deep NN,2023-01-12T14:07:45Z,0,
+Carol,Hi @muhammaddarab7474 could you share your shallow neural network with me? I'm trying to build one for my PhD research and I'm a bit lost...,2023-01-12T11:05:27Z,1,
+p perez,"@John Wig Usually , beginners learn to spell wovels and consonnant before making sentences. Otherwise you don't learn , you are just a user. Not en angineeer",2022-11-20T20:21:27Z,0,
+kumar910,"@John Wig Humans are resilient and python is English like language. With internet, with so many resources at disposal it is not impossible. That will not get you a job though. You will have to jump a lot more hoops for that.",2022-10-20T16:59:00Z,1,
+Muhammad Darab,@John Wig Yeah you are right lol. If a beginner can make a neural network from scratch then he aint a beginner anymore. But I think that you should understand what's going on at the backend,2022-10-20T08:31:23Z,1,
+John Wig,"Then that defeats the purpose of a ""beginner"" tutorial when u want them to make things with their bare hands instead of the tools that alr exist e.g. hammer, screwdriver etc. The last thing we want to do is to overwhelm them. Give them the higher level concept first before going into details like from ""scratch"".",2022-10-20T08:27:36Z,4,
+Mith Wada,@Muhammad Darab mmmmmmmmmmmmm,2022-10-20T05:23:21Z,0,
+kumar910,@Jeremy Wright I wish you well.,2022-10-17T22:39:21Z,0,
+kumar910,"@Jeremy Wright I was talking about you Jeremy. He is right. If you don't find value, move on. Don't trash people who are contributing to the community.",2022-10-13T17:31:57Z,4,
+kumar910,So much hate. Life is short guys.,2022-10-12T16:09:14Z,1,
+Muhammad Darab,"@Jeremy Wright Lmao man I ain't wasting my time proving to you what I can do. Instead of criticizing me, go and develop your skills.",2022-10-04T21:05:47Z,9,
+Muhammad Darab,"@Jeremy Wright Idk why are you so toxic. I am free to say what I think. It is my opinion. If you don't agree, just say so",2022-10-04T20:40:02Z,5,
+Zechs Scal,Asalamualikum waramutulahi wabarakatuhu brother I hope all is well.,2022-09-27T13:26:37Z,1,
+Muhammad Darab,@Lakshman Hopefully I will finish it by this Sunday. We dont have to do anything complicated. Just a for loop to calculate parameters and biases for n layers and then a for loop for backpropagation for gradient descent of all derivatives,2022-09-27T12:52:15Z,3,
+Lakshman,"@Muhammad Darab Ok
+I guess we are on same track.
+Ill try to implement NN for N hidden layers from scratch...
+Let's hope we will finish and gain knowledge on how NN works 🥲
+All the best!",2022-09-27T12:48:09Z,0,
+Muhammad Darab,"@Lakshman I can share my Shallow Neural Network code with you for 1 layer but for N Hidden layer (Deep Neural Network), you will have to wait till I implement it",2022-09-27T09:04:06Z,5,
+Lakshman,"@Muhammad Darab Can you share your code?
+I have tried to hardcode the backpropagation algorithm for 1 input and 1 output with only 1 hidden layer
+So even I need to implement full NN from scratch...",2022-09-27T09:00:24Z,0,
+Muhammad Darab,@Lakshman Yes. A Shallow Neural Network. This week I will be making a Deep Neural Network Vectorized Approach from scratch and 2 weeks later I will also implement CNN from scratch,2022-09-27T03:04:33Z,9,
+Lakshman,Have you Built NN from scratch?,2022-09-27T01:27:32Z,6,
+E,Not really everybody...,2022-09-26T17:52:01Z,0,0
+Pups,"2 Genders? 
+Nani?
+
+
+
+
+
+
+
+
+
+
+
+/s",2022-09-26T17:28:22Z,0,0
+Bin Frishinger,"Why would we use a dataset in a course ""for everybody"" that itself needs so much research to even understand what it's about?",2022-09-26T17:20:34Z,4,0
+James Johnathan,Thanks for sharing such an amazing content!!,2022-09-26T17:08:25Z,5,0
+Priyanshu Tomar,hey freeCodeCamp team please upload a video on complete backend development course.........,2022-09-26T17:08:02Z,0,1
+freeCodeCamp.org,We will next month. :),2022-09-26T17:14:05Z,3,
+Logeshwaran,Missing that dab in the beginning 🥺kaa,2022-09-26T17:05:31Z,0,0
+IndustryOfMagic,Kylie Ying is a gift to humanity,2022-09-26T16:53:35Z,14,0
+Shakil Ahmed,"since she is a physicist,  she should have used pytorch instead of tensorflow.  I am not impressed at all,  sorry.",2022-09-26T16:52:01Z,0,1
+Antreas Veritas,"No, she should have not.",2022-09-27T11:14:54Z,0,
+Konstantin Hater,"Say no to nuclear war , better look for new videos of freecodecamp!",2022-09-26T16:50:46Z,0,0
+Chris,"Hey, I’m everyone and I appreciate and approve this!",2022-09-26T16:47:01Z,1,0
+Street Chronicles,"Can someone confirm if this goes beyond the basics and actually helps you to build stuff? I’ve done plenty of these courses and most of them only contain basic information about a 100 different things and very little demonstration of actually building a significant project from raw data. So, my fundamentals should be fine after a bit of a brush-up but I need a course that goes beyond.",2022-09-26T16:45:23Z,13,6
+Dhanush Mendu,Coursera. Take Math and ML courses simultaneously. Get the curriculum of a renowned university like Stanford and follow it.,2023-03-28T07:28:08Z,1,
+Tom Kingston,The best way to learn is to practice. You can find free datasets online and mess with them to practice skills.,2022-10-27T07:51:29Z,0,
+Ahmed Mansur,Try to build something on your own it will help,2022-09-27T11:46:02Z,3,
+agentORW,You are in what we call tutorial hell,2022-09-26T21:26:09Z,14,
+zagesh,It is just basic not in deep knowledge,2022-09-26T19:19:59Z,2,
+kikes_are_behind_everything,read the title once again,2022-09-26T17:55:19Z,1,
+Andrews Kusi,I’ll finish this course this time around hopefully 🙏🏾,2022-09-26T16:39:23Z,3,0
+Yaswanth Naidu,"Sir tell me how to build a logic and code in all languages with example problems pls sir no one can teach this .. do one video sir , take one problem then like solve it in python or anything i.e how to build logic and code . Requesting 😢",2022-09-26T16:33:53Z,2,0
+Jesus Christ Saves,"THE GOSPEL
+
+Moreover, brethren, I declare unto you the gospel which I preached unto you, which also 
+ye have received, and wherein ye stand; 2 By which also ye are saved, if ye keep in memory what I preached unto you, unless ye have believed in vain. 3 For I delivered unto you first of all that which I also received, how that Christ died for our sins according to the scriptures; 4 And that he was buried, and that he rose again the third day according to the scriptures:
+- 1 Corinthians 15: 1-4 KJV
+
+Greater love hath no man than this, that a man lay down his life for his friends. - John 15:13 KJV
+
+SAVALATION 
+
+For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.
+- John 3:16 KJV
+
+For God sent not his Son into the world to condemn the world; but that the world through him might be saved. John 3:17
+
+Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by me.
+- John 14:6 KJV
+
+Neither is there salvation in any other: for there is none other name under heaven given among men, whereby we must be saved. Acts 4:12
+
+For if, when we were enemies, we were reconciled to God by the death of his Son, much more, being reconciled, we shall be saved by his life. Romans 5:10
+
+But he was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him; and with his stripes we are healed. - Isaiah 53:5 
+
+For by grace are ye saved through faith; and that not of yourselves: it is the gift of God: Not of works, lest any man should boast. Ephesians 2:8-9 
+
+And saying, The time is fulfilled, and the kingdom of God is at hand: repent ye, and believe the gospel.
+- Mark 1:15 KJV
+
+
+He that believeth on the Son hath everlasting life: and he that believeth not the Son shall not see life; but the wrath of God abideth on him.
+- John 3:36 KJV
+
+Who hath saved us, and called us with an holy calling, not according to our works, but according to his own purpose and grace, which was given us in Christ Jesus before the world began. 2 Timothy 1:9 
+
+For the Son of man is come to seek and to save that which was lost. Luke 19:10 
+
+The Lord is not slack concerning his promise, as some men count slackness; but is longsuffering to us-ward, not willing that any should perish, but that all should come to repentance. 2 Peter 3:9
+
+He that believeth and is baptized shall be saved; but he that believeth not shall be damned. Mark 16:16
+
+For as in Adam all die, even so in Christ shall all be made alive. 1 Corinthians 15:22 
+
+For scarcely for a righteous man will one die: yet peradventure for a good man some would even dare to die. But God commendeth his love toward us, in that, while we were yet sinners, Christ died for us. Romans 5:7-8
+
+I am the door: by me if any man enter in, he shall be saved, and shall go in and out, and find pasture. John 10:9
+
+That if thou shalt confess with thy mouth the Lord Jesus, and shalt believe in thine heart that God hath raised him from the dead, thou shalt be saved. 10 For with the heart man believeth unto righteousness; and with the mouth confession is made unto salvation. 11 For the scripture saith, Whosoever believeth on him shall not be ashamed.
+- Romans 10:9-11 KJV
+
+For whosoever shall call upon the name of the Lord shall be saved.
+- Romans 10:13 KJV
+
+For I am not ashamed of the gospel of Christ: for it is the power of God unto salvation to every one that believeth; to the Jew first, and also to the Greek. Romans 1:16",2022-09-26T16:31:45Z,0,1
+CaptainRono,laziest evangelism I have ever seen.,2023-03-07T12:36:47Z,0,
+0xWxE,I just stated my journey today,2022-09-26T16:24:00Z,0,1
+VanessAI,Congratulations & gl!,2022-09-26T16:29:49Z,1,
+PhoenixY9T,This one is great video regarding to the Data Science and Machine Learning.,2022-09-26T16:23:34Z,3,0
+Eladio Mendez,I'm very excited about this. Her neural network video was amazing !,2022-09-26T16:22:18Z,20,0
+Nagulmeera Shaik,Nice..,2022-09-26T16:19:55Z,0,0
+Max Studio CG,ok all nice and great ...i like watching but i dont understand nothing :)))))),2022-09-26T16:16:23Z,0,0
+CodeTrix,She looks like my sister in law lol ☺,2022-09-26T16:15:45Z,0,0
+Uncle roQ,Thanks,2022-09-26T16:14:04Z,0,0
+Honestly Logical,You guys are awesome.... just search for any tech skill on youtube and bang here is your great videos lectures or tutorials presents in results....,2022-09-26T16:10:07Z,14,0
+Mohamed Salah,"Finally my order is coming thanks
+Like if you love data science 💖",2022-09-26T16:09:16Z,0,0
+Gustavo Juantorena,Awesome!!,2022-09-26T16:05:21Z,3,0
+Edward / Edy,Need ML engineering course,2022-09-26T16:04:42Z,1,0
+AMTV,Nice!,2022-09-26T16:04:38Z,3,0
+Prajakt Patil,any pre requisites to watch this?,2022-09-26T16:04:30Z,31,13
+Zakariah1971,Thick notepad,2022-11-20T18:45:52Z,0,
+Navjot Singh,"A machine, to do the learning.",2022-11-06T22:34:05Z,1,
+Diamond Girls,a girlfriend,2022-11-05T17:04:16Z,1,
+Kylie Ying,"Python (use of libraries), pandas, numpy, matplotlib will help. Some probability will help as well.",2022-09-26T19:29:19Z,4,
+Alfredo Rodriguez,300 IQ,2022-09-26T17:24:22Z,1,
+우우요요,"Calculus, linear algebra, probability and statistics",2022-09-26T17:10:18Z,1,
+khyzzeii,"@class British: def __innit__(self,tea,rain): pass That's dark bruhh 💀",2022-09-26T17:08:44Z,2,
+"class British: def __innit__(self,tea,rain): pass",Eyes. Definitely need eyes.,2022-09-26T17:00:34Z,17,
+Edu Edu,Math and python,2022-09-26T16:36:02Z,4,
+Mack Benham,willingness to learn,2022-09-26T16:31:45Z,0,
+Udit Makkar,"Knowledge of python,pandas,numpy and matplot lib 👍 can really help learn this course better.",2022-09-26T16:27:00Z,21,
+Pink Cat,Yes,2022-09-26T16:24:54Z,0,
+Edgar Nova,Access to YouTube.,2022-09-26T16:24:29Z,22,
+Amul Gaurav,Machine learning is booming nowadays...,2022-09-26T16:04:28Z,2,0
+Trik Ngonlen,A W E S O M E !,2022-09-26T16:04:27Z,3,0
+Cyber Builder Academy,You are awesome dude 🎉❤,2022-09-26T16:04:23Z,3,1
+Şevval Ulus,u are right dude,2022-09-26T16:26:07Z,0,
+Manish Kumar Singh,How to feature a course here.,2022-09-26T16:04:08Z,0,0
+Rishi Raj,Salutations,2022-09-26T16:04:04Z,0,0
+Jawad Ahmed,I know C/C++ but don't know anything about machine learning,2022-09-26T16:03:56Z,2,6
+Jawad Ahmed,@Edgar Nova thanks brother helps a lot,2022-09-26T16:35:50Z,0,
+Mack Benham,"if u know C/C++ ""learning python"" should take 1 day",2022-09-26T16:31:21Z,0,
+Jawad Ahmed,Thanks brother helps a lot,2022-09-26T16:28:47Z,1,
+Edgar Nova,@Jawad Ahmed python has all the libraries and the community to support AI. Also is a really simple language.,2022-09-26T16:25:18Z,0,
+Jawad Ahmed,@Manick Max why??,2022-09-26T16:09:33Z,0,
+Manick Max,Learn python first,2022-09-26T16:04:58Z,2,
+Bourbon,At The right Time ❤️,2022-09-26T16:03:45Z,2,0
+Ankit Chetri,Good lord just what I wanted,2022-09-26T16:03:34Z,0,0
+Bikram Ghimire,is it for me?,2022-09-26T16:01:41Z,1,1
+freeCodeCamp.org,Yes.,2022-09-26T16:03:01Z,4,
+Ans Waheed,First,2022-09-26T16:01:20Z,0,0
+lllToPM dota1,👍,2022-09-26T16:01:08Z,2,0
