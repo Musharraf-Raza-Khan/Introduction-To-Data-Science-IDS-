@@ -23,7 +23,7 @@ Welcome To My (IDS) Repository &amp; Happy Learning !
 ![Aspose Words d8afd77f-df63-475f-bc94-ec1700bdbba8 002](https://user-images.githubusercontent.com/95965896/234596382-b4add1b0-7305-4c49-8b99-7afed6d34e89.png)
 
 
-**INTRODUCTION TO DATA SCIENCE**
+# INTRODUCTION TO DATA SCIENCE
 
 **(IDS)** 
 
@@ -61,8 +61,11 @@ Data science is an interdisciplinary field that involves using scientific method
 # KEY ELEMENTS OF DATA SCIENCE:
 
 **- Statistical Analysis, **
+
 **- Data Modeling, **
+
 **- Machine Learning, **
+
 **- Data Visualization etc.**
 
 
@@ -77,9 +80,13 @@ Data science is an interdisciplinary field that involves using scientific method
 Description automatically generated](Aspose.Words.d8afd77f-df63-475f-bc94-ec1700bdbba8.004.png)
 
 **- Better Decision Making**
+
 **- Predictive Analytics:**
+
 **- Personalization:**
+
 **- Cost Reduction:**
+
 **- Healthcare:**
 
 Overall, data science has become a critical tool for organizations to extract insights and knowledge from data, make informed decisions, and stay competitive in today's world.
@@ -116,7 +123,7 @@ The data science process
 
 Overall, the data science process is iterative and involves continuous refinement and improvement to ensure that the models provide actionable insights and value to the business or research question at hand.
 
-**DATA SCINCE TOOLS & TECHNOLOGIES**
+# DATA SCINCE TOOLS & TECHNOLOGIES
 
 **Programming Languages:** 
 
@@ -138,7 +145,7 @@ Machine learning frameworks such as TensorFlow, Keras, and Scikit-Learn are used
 
 Data visualization tools such as Tableau, Power BI, and Matplotlib are used to create visual representations of data to help understand patterns, trends, and insights
 
-**SKILLS REQUIRED FOR CAREER IN A DATA SCIENCE**
+# SKILLS REQUIRED FOR CAREER IN A DATA SCIENCE
 
 A career in data science requires a combination of technical and soft skills. Here are some of the key skills that are essential for a career in data science:
 
@@ -160,7 +167,7 @@ Overall, data scientists need a combination of technical and soft skills to be s
 
 ![](Aspose.Words.d8afd77f-df63-475f-bc94-ec1700bdbba8.007.png)
 
-**DATA SCINCE CAREER OPPORTUNITIES**
+# DATA SCINCE CAREER OPPORTUNITIES
 
 Data science is a rapidly growing field with a wide range of career opportunities across industries. Here are some of the common career paths in data science:
 
@@ -185,7 +192,7 @@ Overall, there are many different career paths in data science, each with unique
 
 
 
-**PYTHON PROGRAMMING LANGUAGE FUNCTIONS**
+# PYTHON PROGRAMMING LANGUAGE FUNCTIONS**
 
 ![image](https://user-images.githubusercontent.com/95965896/234592505-5471f380-63ce-4a59-a0c6-f40d1be021c5.png)
 
@@ -211,7 +218,7 @@ Python is a versatile programming language that supports a wide range of functio
 
 These are just some of the common functions in Python. Python is a very powerful and flexible language that supports many other functions as well.
 
-**PYTHON PROGRAMMING LANGUAGE TYPES AND SEQUENCES**
+# PYTHON PROGRAMMING LANGUAGE TYPES AND SEQUENCES
 
 In Python, there are several built-in data types and sequences that allow for easy manipulation and storage of data. Here are some of the common types and sequences in Python:
 
@@ -233,7 +240,7 @@ In Python, there are several built-in data types and sequences that allow for ea
 
 These are just some of the common data types and sequences in Python. Python also supports many other data types and sequences, including **bytearrays, frozensets**, and **namedtuples.**
 
-**READIND COMMA SEPERATED VALUES (CSV) FILES IN PYHTON**
+# READIND COMMA SEPERATED VALUES (CSV) FILES IN PYHTON
 
 In Python, you can read and write CSV (Comma-Separated Values) files using the built-in csv module. **Example** of how to read and write CSV files in Python:
 
@@ -278,7 +285,7 @@ with open('new\_file.csv', mode='w', newline='') as csv\_file:
 
 **EXP:** In this example, we create a list of lists called data which contains some sample data. We then open a new CSV file called 'new\_file.csv' using the open() function and write the contents of data to the CSV file using the csv.writer() function. We use a for loop to iterate through each row in data and write it to the CSV file using the csv\_writer.writerow() function.
 
-**OBJECTS AND MAP IN PYTHON**
+# OBJECTS AND MAP IN PYTHON
 
 ![image](https://user-images.githubusercontent.com/95965896/234592568-575f7d44-4ebf-4c8b-a26e-a7f7cff3b7e4.png)
 
@@ -313,7 +320,7 @@ print(p1.age)
 
 **EXP:** In this example, we define a class called Person which has two attributes: name and age. We then create an object of the Person class called p1, passing in values for the name and age attributes. We can then access the values of the attributes using the dot notation (i.e., p1.name and p1.age).
 
-**MAPS**
+# MAPS
 
 In Python, maps are commonly implemented using dictionaries. A dictionary is a collection of key-value pairs, where each key is unique and associated with a value. 
 
@@ -331,7 +338,7 @@ print(my\_dict["key2"])
 
 Note that dictionaries can also be created using the dict() constructor function, and can contain keys of different data types.
 
-**LAMBDA AND LIST COMPREHENSIONS**
+# LAMBDA AND LIST COMPREHENSIONS
 
 Lambda functions and list comprehensions are two powerful features of Python that allow for concise and expressive **CODE**.
 
@@ -357,7 +364,7 @@ print(result)
 
 **EXP:** In this example, we define a lambda function called square that takes a single argument and returns the square of that argument. We can then call the lambda function like a regular function and pass in an argument (in this case, the number 5).
 
-**LIST COMPREHENSIONS**
+# LIST COMPREHENSIONS
 
 List comprehensions are a concise way to create lists in Python. They are essentially a compact for loop that performs some operation on each element in a sequence. 
 
@@ -374,7 +381,7 @@ print(squares)
 
 **EXP:** In this example, we use a list comprehension to create a list called squares that contains the first 10 square numbers. The list comprehension consists of a for loop that iterates over the range 1 to 10, and an expression that squares each number in the range.
 
-**Numpy:**
+# Numpy:
 
 ![image](https://user-images.githubusercontent.com/95965896/234592829-0af00e5c-ba4c-4480-9879-d59d2f9abc72.png)
 
@@ -541,7 +548,7 @@ std = np.std(arr)
 
 print(std)
 
-**INDEXING**
+# INDEXING
 
 ![image](https://user-images.githubusercontent.com/95965896/234593031-76c5f9ca-20d5-40b4-96cd-fbb28f499fa0.png)
 
@@ -573,7 +580,7 @@ print(my\_string[-1])  # Output: 'o'
 
 
 
-**SLICING**
+# SLICING
 
 **Slicing:** Slicing is the process of extracting a subset of elements from a data structure. In Python, you can slice a sequence using the syntax [start:stop:step], where start is the starting index, stop is the stopping index (exclusive), and step is the step size between each element.
 
@@ -601,7 +608,7 @@ print(my\_string[1:4])  # Output: 'ell'
 
 print(my\_string[::2])  # Output: 'hlo'
 
-**ITERATING**
+# ITERATING
 
 Iterating: Iterating is the process of looping over the elements in a data structure, one by one. In Python, you can use a for loop to iterate over a sequence.
 
@@ -631,7 +638,7 @@ for character in my\_string:
 
 **NOTE:** Indexing, slicing, and iterating are fundamental operations in Python and are used extensively in data analysis and scientific computing. NumPy arrays, for example, can also be indexed, sliced, and iterated over in similar ways to Python sequences.
 
-**NUMPY WITH DATASET**
+# NUMPY WITH DATASET
 
 NumPy can be used with datasets in a variety of ways. Here are a few examples:
 
@@ -671,11 +678,11 @@ plt.show()
 
 **26.April.2023**
 
-**API:**
+# API:
 
 ![image](https://github.com/Musharraf-Raza-Khan/Introduction-To-Data-Science-IDS-/assets/95965896/815ca14a-7655-4429-88b7-c796c4368c18)
 
-API stands for Application Programming Interface. Different software applications can communicate and interact with one another according to a set of rules and protocols. APIs specify the procedures, data structures, and guidelines that programmers must adhere to when connecting their applications with a certain piece of software or service.
+API stands for **Application Programming Interface**. Different software applications can communicate and interact with one another according to a set of rules and protocols. APIs specify the procedures, data structures, and guidelines that programmers must adhere to when connecting their applications with a certain piece of software or service.
 
 Without having to comprehend the intricate implementation details, APIs allow developers to access and utilise the functionality of other software systems, such as web services, libraries, or operating systems. They give programmes a standardised way to ask for and exchange data, carry out actions, and use resources made available by the API provider.
 
@@ -687,36 +694,36 @@ In many diverse situations, including web development, mobile app development, c
 
 An API functions in a set of steps that enable communication and interaction between programmes. Here is a general explanation of how APIs operate:
 
--Request: The client application sends an HTTP request (such as GET, POST, PUT, or DELETE) to a particular URL or endpoint to start a request to the API. The request contains data in the request body occasionally, as well as headers and parameters.
+**-Request:** The client application sends an HTTP request (such as GET, POST, PUT, or DELETE) to a particular URL or endpoint to start a request to the API. The request contains data in the request body occasionally, as well as headers and parameters.
 
--Routing: Based on the URL and HTTP method used, the API server receives the request and chooses the best endpoint and handler to handle it.
+**-Routing:** Based on the URL and HTTP method used, the API server receives the request and chooses the best endpoint and handler to handle it.
 Processing: The requested endpoint's associated activities or business logic are carried out by the API server. This could entail using external services, conducting calculations, accessing databases, or any other necessary tasks.
 
--Authentication and Authorization: The server may authenticate the client to make sure it has the necessary permissions to access the requested resources, depending on the security needs of the API. Use of API keys, tokens, or other authentication methods may be required.
+**-Authentication and Authorization:** The server may authenticate the client to make sure it has the necessary permissions to access the requested resources, depending on the security needs of the API. Use of API keys, tokens, or other authentication methods may be required.
 
--Data retrieval or manipulation: Depending on the parameters of the request and the business logic, the API server retrieves or modifies the data. This can entail running a database query, handling files, or carrying out any other relevant operations.
+**-Data Retrieval or Manipulation:** Depending on the parameters of the request and the business logic, the API server retrieves or modifies the data. This can entail running a database query, handling files, or carrying out any other relevant operations.
 
--Response: After handling the request, the server creates an HTTP response. The answer normally consists of a response body containing the requested data or pertinent error messages, as well as a status code indicating whether the request was successful or unsuccessful.
+**-Response:** After handling the request, the server creates an HTTP response. The answer normally consists of a response body containing the requested data or pertinent error messages, as well as a status code indicating whether the request was successful or unsuccessful.
 
--Data transfer: Over the network, the server delivers the HTTP response back to the client application. The client application receives and processes the response.
+**-Data Transfer:** Over the network, the server delivers the HTTP response back to the client application. The client application receives and processes the response.
 
--Client-side processing: After receiving the response, the client application processes it in accordance with its needs. This may entail analysing the response, showing the user the data, or taking additional actions in response to the information received.
+**-Client-Side Processing:** After receiving the response, the client application processes it in accordance with its needs. This may entail analysing the response, showing the user the data, or taking additional actions in response to the information received.
 
  The use of APIs allows programmes to communicate with one another, share information, and take advantage of the functions offered by the API provider. The architecture of the API will determine the specifics and protocols used for communication, such as REST (Representational State Transfer), SOAP (Simple Object Access Protocol), GraphQL, or others.
 
-**Data Extraction From API Through Code?**
+# Data Extraction From API Through Code?
 
 You normally need to perform the following steps in order to extract data from an API using code:
 
-1. Select an API: Choose the API from which you can extract the desired data. This could be an internal API you created or a public API offered by a platform or service.
+**1. Select an API:** Choose the API from which you can extract the desired data. This could be an internal API you created or a public API offered by a platform or service.
 
-2. Obtain API credentials. You might need to acquire authentication credentials, such as an API key, access token, or username/password combination, depending on the API's specifications. Your queries to the API are authenticated using these credentials.
+**2. Obtain API Credentials.** You might need to acquire authentication credentials, such as an API key, access token, or username/password combination, depending on the API's specifications. Your queries to the API are authenticated using these credentials.
 
-3. Configure the API client: You must configure either an HTTP client library or a specialised API client library, depending on the programming language you're using. These tools make it easier to send HTTP requests and manage responses.
+**3. Configure The API Client:** You must configure either an HTTP client library or a specialised API client library, depending on the programming language you're using. These tools make it easier to send HTTP requests and manage responses.
 
-4. Send HTTP requests: To send HTTP queries to the API's endpoints, use the API client library. Using the API documentation and the action you wish to do (such as accessing, creating, or changing data), choose the proper HTTP method (GET, POST, PUT, or DELETE). Include any relevant request body data, headers, and parameters.
+**4. Send HTTP Requests:** To send HTTP queries to the API's endpoints, use the API client library. Using the API documentation and the action you wish to do (such as accessing, creating, or changing data), choose the proper HTTP method (GET, POST, PUT, or DELETE). Include any relevant request body data, headers, and parameters.
 
-5. Handle the response: You can extract the data from the response body after receiving the response from the API. The information could be delivered in a number of formats, like JSON.
+**5. Handle The Response:** You can extract the data from the response body after receiving the response from the API. The information could be delivered in a number of formats, like JSON.
 
 **Example Python Code For Data Extraction Through API** 
 import requests
@@ -785,7 +792,7 @@ Before running the code, make sure to install the requests library. Pip install 
 
 25.May.2023
 
-**Exploratory Data Analysis (EDA)**
+# Exploratory Data Analysis (EDA)
 
 ![image](https://github.com/Musharraf-Raza-Khan/Introduction-To-Data-Science-IDS-/assets/95965896/fd5004b4-fab6-4878-9279-a0f38afc877c)
 
@@ -793,19 +800,19 @@ Exploratory Data Analysis (EDA) is a method for examining and summarising data s
 
 The following are some typical procedures and methods used in exploratory data analysis:
 
-1. Data gathering and initial inspection: Compile the pertinent data and look over its dimensions, structure, and fundamental characteristics including the number of variables, data types, and missing values.
+**1. Data Gathering & Initial inspection:** Compile the pertinent data and look over its dimensions, structure, and fundamental characteristics including the number of variables, data types, and missing values.
 
-2.Data cleaning and preprocessing: Handle missing values, outliers, and inconsistencies in the data during data cleaning and preprocessing. In this step, missing values may be imputed, outliers may be eliminated, and variable transformations may be necessary.
+**2.Data Cleaning & Preprocessing:** Handle missing values, outliers, and inconsistencies in the data during data cleaning and preprocessing. In this step, missing values may be imputed, outliers may be eliminated, and variable transformations may be necessary.
 
-3.Univariate analysis: Analyse each variable separately to comprehend its distribution, summary statistics (mean, median, and mode), range, and spot outliers using a univariate approach. The usage of methods like histograms, box plots, and summary statistics is widespread.
+**3.Univariate Analysis:** Analyse each variable separately to comprehend its distribution, summary statistics (mean, median, and mode), range, and spot outliers using a univariate approach. The usage of methods like histograms, box plots, and summary statistics is widespread.
 
-4.Bivariate and multivariate analysis:Analyse the associations between variables using bivariate and multiple variables. Correlation analysis can be used with numerical variables to express the strength and direction of correlations. It is common to employ scatter plots, heatmaps, and correlation matrices. Contingency tables and bar plots can be used to investigate associations for categorical variables.
+**4.Bivariate & Multivariate Aalysis:** Analyse the associations between variables using bivariate and multiple variables. Correlation analysis can be used with numerical variables to express the strength and direction of correlations. It is common to employ scatter plots, heatmaps, and correlation matrices. Contingency tables and bar plots can be used to investigate associations for categorical variables.
 
-5.Visualisation: To exhibit the data and spot patterns, trends, and outliers, use a variety of visualisations such scatter plots, line plots, bar charts, histograms, box plots, and heatmaps. Making data-driven judgements and comprehending complex relationships can both benefit from visualisations.
+**5.Visualisation:** To exhibit the data and spot patterns, trends, and outliers, use a variety of visualisations such scatter plots, line plots, bar charts, histograms, box plots, and heatmaps. Making data-driven judgements and comprehending complex relationships can both benefit from visualisations.
 
-6.Feature Engineering: Feature engineering is the process of creating new features or altering existing ones using domain expertise and understanding derived from EDA. To enhance the performance of the model, this stage may involve generating derived features, scaling variables, or introducing interaction terms.
+**6.Feature Engineering:** Feature engineering is the process of creating new features or altering existing ones using domain expertise and understanding derived from EDA. To enhance the performance of the model, this stage may involve generating derived features, scaling variables, or introducing interaction terms.
 
-7.Summary and interpretation: Condense the results of the EDA process, highlight significant trends or insights, and develop ideas for more research or modelling. In this step, the results are interpreted in light of the problem domain.
+**7.Summary & Interpretation:** Condense the results of the EDA process, highlight significant trends or insights, and develop ideas for more research or modelling. In this step, the results are interpreted in light of the problem domain.
 
 # NOTE:
 As it aids in understanding the data, identifies potential problems, and directs further analysis or modelling tasks, EDA is a vital step in the data analysis pipeline. It enables data scientists and analysts to comprehend the data more thoroughly, spot problems with the quality of the data, and produce ideas for additional research.
