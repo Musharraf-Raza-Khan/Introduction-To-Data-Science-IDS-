@@ -43,7 +43,7 @@ Balochistan University of Information Technology, Engineering & Management Scien
 
 “Session Spring-2023”
 
-**COURSE OVERVIEW:**
+# COURSE OVERVIEW:
 
 Data science is an interdisciplinary field that uses statistical and computational methods to extract insights and knowledge from data. It involves the entire data lifecycle, from data collection and storage to analysis and visualization. 
 
@@ -51,40 +51,40 @@ The goal of data science is to discover patterns and relationships in data that 
 
 In today's data-driven world, data science has become a critical component of many industries and is used to solve a wide range of problems, from predicting customer behaviour to optimizing supply chain operations.
 
-**DATA SCIENCE:**
+# DATA SCIENCE:
 
 ![image](https://user-images.githubusercontent.com/95965896/234592377-22a5a22e-f5b6-4055-b7fb-75093e7b6d0d.png)
 
 Data science is an interdisciplinary field that involves using scientific methods, algorithms, and tools to extract insights and knowledge from structured and unstructured data. It combines various fields such as statistics, computer science, mathematics, and domain expertise to extract useful information from data.
 
 
-**KEY ELEMENTS OF DATA SCIENCE:**
+# KEY ELEMENTS OF DATA SCIENCE:
 
-- Statistical Analysis, 
-- Data Modeling, 
-- Machine Learning, 
-- Data Visualization etc.
-
-
+**- Statistical Analysis, **
+**- Data Modeling, **
+**- Machine Learning, **
+**- Data Visualization etc.**
 
 
 
-**THE IMPORTANCE OF DATA SCIENCE**
+
+
+# THE IMPORTANCE OF DATA SCIENCE
 
 ![image](https://user-images.githubusercontent.com/95965896/234591555-6765aa49-459f-4f0b-9466-d5fa9ea9fcae.png)
 
 
 Description automatically generated](Aspose.Words.d8afd77f-df63-475f-bc94-ec1700bdbba8.004.png)
 
-- Better Decision Making
-- Predictive Analytics:
-- Personalization:
-- Cost Reduction:
-- Healthcare:
+**- Better Decision Making**
+**- Predictive Analytics:**
+**- Personalization:**
+**- Cost Reduction:**
+**- Healthcare:**
 
 Overall, data science has become a critical tool for organizations to extract insights and knowledge from data, make informed decisions, and stay competitive in today's world.
 
-**EXAMPLES OF INDUSTRIES THAT USE DATA SCIENCE:**
+# EXAMPLES OF INDUSTRIES THAT USE DATA SCIENCE:
 
 ![image](https://user-images.githubusercontent.com/95965896/234591646-e771543d-49a6-491a-aea9-d5285ac72e88.png)
 
@@ -98,7 +98,7 @@ Overall, data science has become a critical tool for organizations to extract in
 
 Overall, data science has become an integral part of various industries, enabling organizations to extract valuable insights from data and make informed decisions.
 
-**DATA SCIENCE PROCESS**
+# DATA SCIENCE PROCESS
 
 ![image](https://user-images.githubusercontent.com/95965896/234591742-3d5f7426-acc9-48a2-bfed-c31994bab0b6.png)
 
