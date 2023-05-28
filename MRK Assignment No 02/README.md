@@ -10,23 +10,23 @@ The aim is to create a programme that interacts with a publically accessible API
 
 Certainly! You can include the following goals in the assignment on data extraction through an API:
 
-Demonstrate understanding of APIs: Understand the notion of APIs, their use in software development, and the importance of using APIs to retrieve data from other sources.
+**1. Demonstrate understanding of APIs:** Understand the notion of APIs, their use in software development, and the importance of using APIs to retrieve data from other sources.
 
-API Integration: Practise performing HTTP queries, managing authentication, and parsing API answers in order to gain practical experience integrating an API into a programme.
+**2. API Integration:** Practise performing HTTP queries, managing authentication, and parsing API answers in order to gain practical experience integrating an API into a programme.
 
-Data Extraction Skills: Develop your ability to extract pertinent data from API responses using methods such parsing JSON, XML, or other response formats and by becoming familiar with the structure of the data the API returns.
+**3. Data Extraction Skills:** Develop your ability to extract pertinent data from API responses using methods such parsing JSON, XML, or other response formats and by becoming familiar with the structure of the data the API returns.
 
-Error Handling: Implement reliable error handling tools to deal with situations like unsuccessful API requests, login problems, or unexpected results. Make sure the programme responds to faults politely and offers clear error messages or fallback functionality.
+**4. Error Handling:** Implement reliable error handling tools to deal with situations like unsuccessful API requests, login problems, or unexpected results. Make sure the programme responds to faults politely and offers clear error messages or fallback functionality.
 
-Data Processing and Transformation: Apply data processing methods to the extracted data in order to manipulate, filter, convert, or combine it in accordance with the assignment's specifications. Demonstrate your capacity to analyse the material you've obtained and draw important conclusions.
+**5. Data Processing and Transformation:** Apply data processing methods to the extracted data in order to manipulate, filter, convert, or combine it in accordance with the assignment's specifications. Demonstrate your capacity to analyse the material you've obtained and draw important conclusions.
 
-Documentation and Code Organization: organisation and documentation: Write well-documented code that includes concise explanations of all modules, functions, and API endpoints that are used. Make sure your code is well-organized and well-structured to make it simple for others to comprehend and reuse it.
+**6. Documentation and Code Organization:** organisation and documentation: Write well-documented code that includes concise explanations of all modules, functions, and API endpoints that are used. Make sure your code is well-organized and well-structured to make it simple for others to comprehend and reuse it.
 
-Testing and Validation: Test your code using a variety of situations and input data to ensure that it is correct and comprehensive. Check to see if the data was extracted complies with the assignment's requirements and meets expectations.
+**7. Testing and Validation:** Test your code using a variety of situations and input data to ensure that it is correct and comprehensive. Check to see if the data was extracted complies with the assignment's requirements and meets expectations.
 
-Presentation or Reporting: In a professional manner, present your conclusions, your code, and the retrieved data. Any insights, patterns, or trends found throughout the data extraction process should be expressed in plain language.
+**8. Presentation or Reporting:** In a professional manner, present your conclusions, your code, and the retrieved data. Any insights, patterns, or trends found throughout the data extraction process should be expressed in plain language.
 
-Programming Skills: Showcase your programming talents in the chosen language, including your ability to handle data structures, send HTTP requests, implement error handling, and use good coding practises.
+**9. Programming Skills:** Showcase your programming talents in the chosen language, including your ability to handle data structures, send HTTP requests, implement error handling, and use good coding practises.
 
 # Activity Overview
 
@@ -42,26 +42,24 @@ Programming Skills: Showcase your programming talents in the chosen language, in
 
 Here are the key steps involved in the assignment:
 
-API Selection: Choose an API that offers information pertinent to your project or interests. Take into account elements like data accessibility, API documentation, required levels of authentication, and any restrictions put out by the API provider.
+**1. API Selection:** Choose an API that offers information pertinent to your project or interests. Take into account elements like data accessibility, API documentation, required levels of authentication, and any restrictions put out by the API provider.
 
-APi Integration: Implement the necessary code to interface with the API using API integration. Sending HTTP queries, managing authentication (if necessary), and parsing the response data are all included in this.
+**2. API Integration:** Implement the necessary code to interface with the API using API integration. Sending HTTP queries, managing authentication (if necessary), and parsing the response data are all included in this.
 
-Data Extraction: Determine the precise data you wish to retrieve from the API response before beginning. Utilise the proper parsing techniques to effectively extract and organise the data. Depending on how the API is designed, you might need to manage pagination or retrieve data from several API endpoints.
+**3. Data Extraction:** Determine the precise data you wish to retrieve from the API response before beginning. Utilise the proper parsing techniques to effectively extract and organise the data. Depending on how the API is designed, you might need to manage pagination or retrieve data from several API endpoints.
 
-Data Processing and Presentation: Once the data has been extracted, process and manipulate it in accordance with the requirements of the assignment. You could do computations, filter the data, transform it, or visualise it in an appropriate way.
+**4. Data Processing and Presentation:** Once the data has been extracted, process and manipulate it in accordance with the requirements of the assignment. You could do computations, filter the data, transform it, or visualise it in an appropriate way.
 
-Error Handling: Implement error-handling techniques to deal with situations like unsuccessful API requests, login problems, or unexpected results. In order to give meaningful error messages or fallback behaviour, make sure your code smoothly handles these cases.
+**5. Error Handling:** Implement error-handling techniques to deal with situations like unsuccessful API requests, login problems, or unexpected results. In order to give meaningful error messages or fallback behaviour, make sure your code smoothly handles these cases.
 
-Documentation: Clearly and succinctly describe the intent of each function and module in your code, as well as the API endpoints utilised, any presumptions made, and how to run your programme.
+**6. Documentation:** Clearly and succinctly describe the intent of each function and module in your code, as well as the API endpoints utilised, any presumptions made, and how to run your programme.
 
-Testing and Validation: Test your code with various situations and input data to ensure its accuracy. Make that the extracted data matches your expectations and is accurate, complete, and consistent.
+**7. Testing and Validation:** Test your code with various situations and input data to ensure its accuracy. Make that the extracted data matches your expectations and is accurate, complete, and consistent.
 
-Presentation or Report: Create a presentation or report that emphasises your code, lists the data you pulled, and details any conclusions you came to as a result of the data you pulled.
+**8. **Presentation or Report:** Create a presentation or report that emphasises your code, lists the data you pulled, and details any conclusions you came to as a result of the data you pulled.
 
 **NOTE**
 Keep in mind to follow best practises for coding, including the use of proper variable names, adherence to code style rules, and modular, reusable code structure.
-
-# CODE
 
 # Results
 When the code is executed, it will retrieve API, remove duplicates, and save the information to a CSV file called "youtube.csv." 
