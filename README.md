@@ -262,7 +262,9 @@ with open('file.csv') as csv\_file:
 
 `     `print(row)
 
-**EXP:** In this example, we open a CSV file called 'file.csv' using the open() function and read its contents using the csv.reader() function. We then iterate through each row in the CSV file using a for loop and print each row to the console.
+**Explaination:** 
+
+In this example, we open a CSV file called 'file.csv' using the open() function and read its contents using the csv.reader() function. We then iterate through each row in the CSV file using a for loop and print each row to the console.
 
 
 **WRITING COMMA SEPERATED VALUES (CSV) FILES**
@@ -283,7 +285,9 @@ with open('new\_file.csv', mode='w', newline='') as csv\_file:
 
 `  `csv\_writer.writerow(row)
 
-**EXP:** In this example, we create a list of lists called data which contains some sample data. We then open a new CSV file called 'new\_file.csv' using the open() function and write the contents of data to the CSV file using the csv.writer() function. We use a for loop to iterate through each row in data and write it to the CSV file using the csv\_writer.writerow() function.
+**Explaination:** 
+
+In this example, we create a list of lists called data which contains some sample data. We then open a new CSV file called 'new\_file.csv' using the open() function and write the contents of data to the CSV file using the csv.writer() function. We use a for loop to iterate through each row in data and write it to the CSV file using the csv\_writer.writerow() function.
 
 # OBJECTS AND MAP IN PYTHON
 
@@ -318,7 +322,9 @@ print(p1.name)
 
 print(p1.age)
 
-**EXP:** In this example, we define a class called Person which has two attributes: name and age. We then create an object of the Person class called p1, passing in values for the name and age attributes. We can then access the values of the attributes using the dot notation (i.e., p1.name and p1.age).
+**Explaination:** 
+
+In this example, we define a class called Person which has two attributes: name and age. We then create an object of the Person class called p1, passing in values for the name and age attributes. We can then access the values of the attributes using the dot notation (i.e., p1.name and p1.age).
 
 # MAPS
 
@@ -334,7 +340,9 @@ my\_dict = {"key1": "value1", "key2": "value2", "key3": "value3"}
 
 print(my\_dict["key2"])
 
-**EXP:** In this example, we define a dictionary called my\_dict which contains three key-value pairs. We can access the value associated with a specific key using the square bracket notation (i.e., my\_dict["key2"] returns the value "value2").
+**Explaination:** 
+
+In this example, we define a dictionary called my\_dict which contains three key-value pairs. We can access the value associated with a specific key using the square bracket notation (i.e., my\_dict["key2"] returns the value "value2").
 
 Note that dictionaries can also be created using the dict() constructor function, and can contain keys of different data types.
 
@@ -362,7 +370,9 @@ result = square(5)
 
 print(result)
 
-**EXP:** In this example, we define a lambda function called square that takes a single argument and returns the square of that argument. We can then call the lambda function like a regular function and pass in an argument (in this case, the number 5).
+**Explaination:** 
+
+In this example, we define a lambda function called square that takes a single argument and returns the square of that argument. We can then call the lambda function like a regular function and pass in an argument (in this case, the number 5).
 
 # LIST COMPREHENSIONS
 
@@ -379,9 +389,9 @@ squares = [x\*\*2 for x in range(1, 11)]
 
 print(squares)
 
-**EXP:** In this example, we use a list comprehension to create a list called squares that contains the first 10 square numbers. The list comprehension consists of a for loop that iterates over the range 1 to 10, and an expression that squares each number in the range.
+**Explaination:** In this example, we use a list comprehension to create a list called squares that contains the first 10 square numbers. The list comprehension consists of a for loop that iterates over the range 1 to 10, and an expression that squares each number in the range.
 
-# Numpy:
+# NUMPY:
 
 ![image](https://user-images.githubusercontent.com/95965896/234592829-0af00e5c-ba4c-4480-9879-d59d2f9abc72.png)
 
@@ -711,7 +721,7 @@ Processing: The requested endpoint's associated activities or business logic are
 
  The use of APIs allows programmes to communicate with one another, share information, and take advantage of the functions offered by the API provider. The architecture of the API will determine the specifics and protocols used for communication, such as REST (Representational State Transfer), SOAP (Simple Object Access Protocol), GraphQL, or others.
 
-# Data Extraction From API Through Code?
+# DATA EXTRACTION FROM API THROUGH CODE?
 
 You normally need to perform the following steps in order to extract data from an API using code:
 
@@ -780,6 +790,7 @@ Certainly! Let's go through the code step by step to understand what it does:
 9. If the status code is not 200, the code prints an error message along with the actual status code received.
 
 # NOTE:
+
 Please note that this is a simplified example, and you may need to modify the code based on the specific requirements of the API you are working with, such as authentication, request parameters, error handling, and data processing. Refer to the API documentation for accurate implementation details.
 
 In this illustration, a GET request is made using the requests library and sent to the API endpoint identified by the url variable. Any necessary headers, like an access token for authentication, are contained in the headers dictionary. Depending on the particular requirements of the API you are using, you might need to adjust the headers dictionary.
@@ -792,7 +803,7 @@ Before running the code, make sure to install the requests library. Pip install 
 
 25.May.2023
 
-# Exploratory Data Analysis (EDA)
+# EXPLORATORY DATA ANALYSIS (EDA)
 
 ![image](https://github.com/Musharraf-Raza-Khan/Introduction-To-Data-Science-IDS-/assets/95965896/fd5004b4-fab6-4878-9279-a0f38afc877c)
 
@@ -821,7 +832,7 @@ As it aids in understanding the data, identifies potential problems, and directs
 
 # Types of Charts & Graphs
 
-**Univariate:**
+**UNIVARIATE:**
 
 Univariate analysis in data science refers to the investigation and analysis of one variable in a dataset. Investigating and summarising the traits, trends, and distribution of that variable without reference to other variables in the dataset is required.
 
@@ -831,7 +842,7 @@ In univariate analysis, it is common to compute summary statistics (such as mean
 
 For more complex data analysis methods, such as multivariate analysis, where correlations between several variables are examined, univariate analysis serves as a basis. Data scientists can better grasp the properties of variables by looking at them separately and then decide how to model and analyse the data in more detail.
 
-# Count Plot
+# COUNT PLOT
 
 A count plot is a sort of data science visualisation that shows the frequency with which each category appears in a categorical variable. The height of each bar on the bar graph shows the number or frequency of observations in each category.
 
@@ -840,20 +851,18 @@ Count plots are frequently used to investigate the frequency and distribution of
 Count plots may be readily constructed in Python by utilising several data visualisation frameworks like Seaborn or Matplotlib. Using the Seaborn library as an example
 
 **Python Code:**
+
 import seaborn as sns
 
-Create a count plot
-
+#Create a count plot
 sns.countplot(x='category', data=data)
 
-Add labels and title
-
+#Add labels and title
 plt.xlabel('Category')
 plt.ylabel('Count')
 plt.title('Count Plot of Categories')
 
-Display the plot
-
+#Display the plot
 plt.show()
 
 **Explaination:**
@@ -862,7 +871,12 @@ In this example, the count plot is created using the countplot() function from S
 
 The resulting count plot visualizes the count or frequency of each category in the specified variable, providing insights into the distribution and occurrence of different categories.
 
-# Histogram:
+![image](https://github.com/Musharraf-Raza-Khan/Introduction-To-Data-Science-IDS-/assets/95965896/1a36c4d3-66f3-4c55-896e-7ca249dbf71d)
+
+![image](https://github.com/Musharraf-Raza-Khan/Introduction-To-Data-Science-IDS-/assets/95965896/72fbff07-ac3a-4a6b-9990-b08624f43da5)
+
+
+# HISTOGRAM:
 
 A histogram plot, also referred to as a histogram chart, shows the distribution of a continuous quantity graphically. It indicates the frequency or count of observations falling into each bin after dividing the variable's range into bins or intervals.
 
@@ -874,18 +888,15 @@ By combining different data visualisation frameworks, such as Matplotlib or Seab
 
 import matplotlib.pyplot as plt
 
-Create a histogram plot
-
+#Create a histogram plot
 plt.hist(data, bins=10)
 
-Add labels and title
-
+#Add labels and title
 plt.xlabel('Variable')
 plt.ylabel('Frequency')
 plt.title('Histogram Plot')
 
-Display the plot
-
+#Display the plot
 plt.show()
 
 **Explaination:**
@@ -894,7 +905,10 @@ In this example, the hist() function from Matplotlib is used to create the histo
 
 You can customize the plot further by adjusting the number of bins, adding labels to the x-axis and y-axis, and providing a title for the plot. Histograms provide a visual representation of the distribution of the variable, allowing you to understand the data's range, shape, and potential outliers.
 
-# Dist Plot:
+![image](https://github.com/Musharraf-Raza-Khan/Introduction-To-Data-Science-IDS-/assets/95965896/0e0951f9-99fa-490c-abea-5e5f7eb5e387)
+
+
+# DIST PLOT:
 
 A distribution plot, sometimes referred to as a density plot or a histogram plot with a fitted probability density function (PDF), combines a histogram with a smooth line to show the estimated probability density function of a continuous variable. It offers a visual picture of the data distribution's underlying structure.
 
@@ -914,15 +928,116 @@ plt.title('Distribution Plot')
 
 #Display the plot
 plt.show()
-**
+
 **Explaination:**
 
+In this example, the distplot() function from Seaborn is used to create the distribution plot. The data parameter specifies the variable for which the distribution plot is created.
+
+The variable's histogram is shown on the distribution plot along with a smoothed line that represents the estimated probability density function. It enables you to evaluate the distribution's form, central tendency, and dispersion visually. The distribution plot can also display other statistical data, such as the mean and standard deviation.
+
+The x-axis and y-axis labels, a title, and other visualisation settings can all be changed to further personalise the plot. The distribution plot is a useful tool for data scientists to comprehend and visualise the distribution of continuous variables.
+
+![image](https://github.com/Musharraf-Raza-Khan/Introduction-To-Data-Science-IDS-/assets/95965896/eec84f70-536b-4775-8a62-a652250d8811)
+
+# DIS PLOT:
+
+For displaying distributions of univariate data, Seaborn's displot function is a versatile tool. It provides a thorough understanding of the distribution of the data by combining components of both a histogram and a kernel density plot.
+
+**Python Code:**
+
+import seaborn as sns
+
+#Create a displot
+sns.displot(data)
+
+#Add labels and title
+plt.xlabel('Variable')
+plt.ylabel('Density')
+plt.title('Displot')
+
+#Display the plot
+plt.show()
+
+**Explainatoin:**
+
+In this example, the displot function is used to create the distribution plot. The data parameter represents the variable or data for which the distribution is to be plotted.
+
+The resulting plot shows the distribution of the variable, together with a smoothed line representing the estimated probability density function and a representation resembling a histogram with bars. Customization options for the displot function include changing the number of bins, adding labels and a title, and including additional visualisation components.
+
+Please be aware that depending on the Seaborn library version you are using, some functions may not be accessible or usable. For the most recent information, it's always a good idea to consult the official Seaborn documentation.
+
+# BOX PLOT:
+
+A box plot, also referred to as a box-and-whisker plot, shows the distribution of a continuous variable through quartiles graphically. The minimum, median, third quartile, and maximum values of the data are shown, along with the first quartile's (25th percentile), median's (50th percentile), and maximum values.
+
+Two whiskers extend from a rectangular box that makes up a box plot. The range between the first and third quartiles is represented by the box, which is known as the interquartile range (IQR). The median is shown by the line inside the box. The whiskers go all the way out to the minimum and maximum values in a range or to particular quantiles.
+
+![image](https://github.com/Musharraf-Raza-Khan/Introduction-To-Data-Science-IDS-/assets/95965896/a71652cf-5b0e-4d1e-8c33-c7e005bf74fd)
+
+Box plots are helpful for comparing distributions between groups or categories, finding outliers, and visualising the dispersion and skewness of data. They give a succinct overview of the data distribution and draw attention to any differences or abnormalities.
+
+Using several data visualisation packages like Seaborn or Matplotlib, you may make a box plot in Python.
+
+**Python Code:**
+
+import seaborn as sns
+
+#Create a box plot
+sns.boxplot(x='category', y='variable', data=data)
+
+#Add labels and title
+plt.xlabel('Category')
+plt.ylabel('Variable')
+plt.title('Box Plot')
+
+#Display the plot
+plt.show()
+
+**Explaination:**
+
+The boxplot() function from Seaborn is used to create the box plot. The x parameter specifies the categorical variable to be plotted on the x-axis, the y parameter specifies the continuous variable to be plotted on the y-axis, and the data parameter specifies the dataset containing the variables.
+
+The x-axis and y-axis labels, a title, and other visualisation settings can all be changed to further personalise the plot. Box plots make fast comparisons of distributions possible and reveal information about the data's skewness, spread, and central tendency.
+
+# BAR PLOT:
+
+Rectangular bars are used to depict categorical data in a bar plot, sometimes referred to as a bar chart or bar graph. The height of each bar, which represents a category, reflects the value or frequency of that category.
+
+![image](https://github.com/Musharraf-Raza-Khan/Introduction-To-Data-Science-IDS-/assets/95965896/6217af1c-1033-41b6-b256-c048872cc5c8)
 
 
+For comparing the values or frequencies of several categories, seeing patterns, and showcasing trends or relationships, bar charts are very helpful. They are useful for both qualitative and quantitative analyses and are effective at communicating discrete facts.
 
-# Probability Density Function (PDF):
+Using several data visualisation frameworks like Matplotlib or Seaborn, you can make a bar plot in Python. 
+
+**Python Code:**
+
+import matplotlib.pyplot as plt
+
+#Create a bar plot
+plt.bar(categories, values)
+
+#Add labels and title
+plt.xlabel('Category')
+plt.ylabel('Value')
+plt.title('Bar Plot')
+
+#Display the plot
+plt.show()
+
+**Explaination:**
+
+In this example, the bar() function from Matplotlib is used to create the bar plot. The categories variable represents the categories or labels for the x-axis, and the values variable represents the corresponding values or frequencies for the y-axis.
+
+The colour of the bars, labels for the x- and y-axes, a title, and other visualisation characteristics can all be changed to further personalise the plot.
+
+In data analysis and reporting, bar charts are frequently used to present categorical data and visually compare several categories. They make it simple to grasp and interpret the relationships or differences between categories and offer a clear and natural manner to express discrete data.
+
+# PROBABILITY DENSITY FUNCTION (PDF):
 
 The probability density function (PDF) is a key tool in data science for comprehending and simulating the distribution of continuous random variables. It is very helpful for doing statistical inference, data interpretation, and analysis.
+
+![image](https://github.com/Musharraf-Raza-Khan/Introduction-To-Data-Science-IDS-/assets/95965896/8079f606-e60a-4d29-ac9f-6b3644c6e846)
 
 The PDF is used in data science in numerous ways, including:
 
@@ -938,14 +1053,7 @@ The PDF is used in data science in numerous ways, including:
 
 For understanding, modelling, and analysing the distribution of continuous random variables, the PDF is an essential tool in data science. Data scientists can use it to gather knowledge, anticipate the future, and make statistical inferences.
 
-
-
-
-
-
-
-
-
+31.May.23
 
 
 **MUSHARRAF RAZA KHAN | 52024 | BUITEMS**
