@@ -819,4 +819,133 @@ As it aids in understanding the data, identifies potential problems, and directs
 
 27.May.2023
 
+# Types of Charts & Graphs
+
+**Univariate:**
+
+Univariate analysis in data science refers to the investigation and analysis of one variable in a dataset. Investigating and summarising the traits, trends, and distribution of that variable without reference to other variables in the dataset is required.
+
+The initial investigation and comprehension of a dataset must include a process known as univariate analysis. It aids data scientists in understanding the many variables and locating significant traits, patterns, or outliers that might be important during the analysis or modelling phase.
+
+In univariate analysis, it is common to compute summary statistics (such as mean, median, and standard deviation), visualise the data using histograms, box plots, or bar charts, and run hypothesis tests or significance checks to see if there are statistically significant differences between groups or categories.
+
+For more complex data analysis methods, such as multivariate analysis, where correlations between several variables are examined, univariate analysis serves as a basis. Data scientists can better grasp the properties of variables by looking at them separately and then decide how to model and analyse the data in more detail.
+
+# Count Plot
+
+A count plot is a sort of data science visualisation that shows the frequency with which each category appears in a categorical variable. The height of each bar on the bar graph shows the number or frequency of observations in each category.
+
+Count plots are frequently used to investigate the frequency and distribution of categorical variables and to pinpoint the most frequent or uncommon categories. They give a brief summary of the data and can point out anomalies, imbalances, or patterns in the variable.
+
+Count plots may be readily constructed in Python by utilising several data visualisation frameworks like Seaborn or Matplotlib. Using the Seaborn library as an example
+
+**Python Code:**
+import seaborn as sns
+
+Create a count plot
+
+sns.countplot(x='category', data=data)
+
+Add labels and title
+
+plt.xlabel('Category')
+plt.ylabel('Count')
+plt.title('Count Plot of Categories')
+
+Display the plot
+
+plt.show()
+
+**Explaination:**
+
+In this example, the count plot is created using the countplot() function from Seaborn. The x parameter specifies the categorical variable to be plotted, and the data parameter specifies the dataset containing the variable. Additional customization can be done using functions from Matplotlib, such as adding labels and a title to the plot.
+
+The resulting count plot visualizes the count or frequency of each category in the specified variable, providing insights into the distribution and occurrence of different categories.
+
+# Histogram:
+
+A histogram plot, also referred to as a histogram chart, shows the distribution of a continuous quantity graphically. It indicates the frequency or count of observations falling into each bin after dividing the variable's range into bins or intervals.
+
+Histograms are used to determine the central tendency and spread of the variable, visualise the form and structure of the data distribution, and spot any outliers or odd patterns.
+
+By combining different data visualisation frameworks, such as Matplotlib or Seaborn, you may make a histogram plot in Python. 
+
+**Python Code:**
+
+import matplotlib.pyplot as plt
+
+Create a histogram plot
+
+plt.hist(data, bins=10)
+
+Add labels and title
+
+plt.xlabel('Variable')
+plt.ylabel('Frequency')
+plt.title('Histogram Plot')
+
+Display the plot
+
+plt.show()
+
+**Explaination:**
+
+In this example, the hist() function from Matplotlib is used to create the histogram plot. The data parameter specifies the variable for which the histogram is created, and the bins parameter specifies the number of bins or intervals to divide the range of the variable.
+
+You can customize the plot further by adjusting the number of bins, adding labels to the x-axis and y-axis, and providing a title for the plot. Histograms provide a visual representation of the distribution of the variable, allowing you to understand the data's range, shape, and potential outliers.
+
+# Dist Plot:
+
+A distribution plot, sometimes referred to as a density plot or a histogram plot with a fitted probability density function (PDF), combines a histogram with a smooth line to show the estimated probability density function of a continuous variable. It offers a visual picture of the data distribution's underlying structure.
+
+With the help of different data visualisation packages like Seaborn or Matplotlib, you may make a distribution plot in Python. 
+
+**Python Code:**
+
+import seaborn as sns
+
+#Create a distribution plot
+sns.distplot(data)
+
+#Add labels and title
+plt.xlabel('Variable')
+plt.ylabel('Density')
+plt.title('Distribution Plot')
+
+#Display the plot
+plt.show()
+**
+**Explaination:**
+
+
+
+
+# Probability Density Function (PDF):
+
+The probability density function (PDF) is a key tool in data science for comprehending and simulating the distribution of continuous random variables. It is very helpful for doing statistical inference, data interpretation, and analysis.
+
+The PDF is used in data science in numerous ways, including:
+
+1. Descriptive Analysis: The PDF gives data scientists understanding of the shape, central tendency, and variability of a variable's distribution. With this knowledge, you can spot trends, outliers, and anomalies in the data.
+
+2. Probability Estimation: Data scientists can calculate the likelihood that a random variable will fall inside a given range by integrating the PDF over that range. Making predictions and determining the likelihood of particular outcomes benefit from this information.
+
+3. Modelling & Simulation: Parametric models are frequently used by data scientists to represent data distributions. In creating these models and calculating their parameters, the PDF is crucial. It is feasible to create synthetic data and simulate various scenarios by fitting a PDF to observed data.
+
+4. In hypothesis testing, the likelihood ratios and p-values are computed using the PDF. The likelihoods under various hypotheses can be compared in order to derive statistical inferences and conclusions about the data.
+
+5. Machine Learning: The PDF is a vital part of many machine learning algorithms that are used to calculate likelihoods and make predictions. For instance, the PDF of each feature is used to calculate the likelihood of a specific class label in Gaussian Naive Bayes classification.
+
+For understanding, modelling, and analysing the distribution of continuous random variables, the PDF is an essential tool in data science. Data scientists can use it to gather knowledge, anticipate the future, and make statistical inferences.
+
+
+
+
+
+
+
+
+
+
+
 **MUSHARRAF RAZA KHAN | 52024 | BUITEMS**
