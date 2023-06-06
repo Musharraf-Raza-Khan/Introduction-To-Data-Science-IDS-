@@ -1126,12 +1126,11 @@ Additionally, pair plots can incorporate additional visual elements such as colo
 
 Overall, pair plots offer a powerful and intuitive way to visualize the relationships between multiple variables in a dataset, facilitating data exploration and hypothesis generation in data science and statistical analysis.
 
-#PANDAS PROFILER:
+# PANDAS PROFILER:
 
 Pandas profilers are tools or libraries that provide detailed analysis and insights into a pandas DataFrame or Series. These profilers automate the process of data exploration, quality assessment, and feature engineering by generating comprehensive reports with statistical summaries, visualizations, and actionable recommendations.
 
 ![image](https://github.com/Musharraf-Raza-Khan/Introduction-To-Data-Science-IDS-/assets/95965896/19002863-039b-45c7-88c8-b139de8499b6)
-
 
 Some popular pandas profilers include:
 
@@ -1161,7 +1160,7 @@ Here are some pandas idioms that are widely used:
 
 3. Boolean Indexing: Pandas supports boolean indexing, which allows filtering and selecting data based on conditions. This is done by passing a boolean Series or DataFrame to the indexing operator (`[]`). 
 
-**For example:**
+**For Example:**
 
    ```python
    df_filtered = df[df['Value'] > 0]
@@ -1193,7 +1192,8 @@ Visualization of high-dimensional data.
 
 By considering multiple variables simultaneously, multivariate analysis allows for a more comprehensive understanding of complex datasets. It helps in uncovering hidden relationships and patterns that may not be apparent in univariate or bivariate analysis alone, and enables data scientists to make more informed decisions, predictions, and inferences.
 
-#CONDENSATION:
+
+# CONDENSATION:
 
 Data condensation, it could be understood as a process of reducing the dimensionality or size of a dataset while preserving important information or patterns. This can be achieved through techniques such as feature selection, feature extraction, or data compression. The goal of data condensation is to create a more manageable or concise representation of the data without losing critical information.
 
