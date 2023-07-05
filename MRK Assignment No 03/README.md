@@ -3,7 +3,9 @@
 This repository contains an assignment that aims to prove Are Females Bad at Driving, if yes, then how can we improve it, if no, then why most people have this misconception and what factors contributes using data science methodologies. 
 The assignment explores objective evidence, analyzes statistical data, and investigates contributing factors to provide a comprehensive and data-driven perspective on the topic.
 
-## Table of Contents
+## Table of Contents For Assignment 
+1. Foreign Dataset
+2. Pakistani Dataset
 - [Introduction](#introduction)
 - [Exploring the Misconception](#exploring-the-misconception)
 - [Data Collection and Preprocessing](#data-collection-and-preprocessing)
@@ -13,11 +15,10 @@ The assignment explores objective evidence, analyzes statistical data, and inves
 - [Overcoming Stereotypes](#overcoming-stereotypes)
 - [Empowering Females](#empowering-females)
 - [Conclusion](#conclusion)
-- [Theory](#Theory)
 - [Additional Resources](#additional-resources)
 - [Acknowledgments](#acknowledgments)
 - [License](#license)
-
+- [Theoritical Part](#Theoritical Part)
 ## Introduction
 The introduction provides an overview of the assignment's objective and explains how data science methodologies will be employed to challenge the stereotype that females are bad at driving.
 
@@ -45,7 +46,16 @@ This section highlights the achievements and successes of female drivers, emphas
 ## Conclusion
 The conclusion section summarizes the key findings, highlights the significance of the data-driven analysis, and reiterates the importance of challenging stereotypes and promoting gender equality in driving based on data science evidence.
 
-# Theory
+## Additional Resources
+The Additional Resources section provides recommendations for further reading, including scholarly articles, statistical data sources, and relevant research papers, to encourage continued exploration of the topic using data science methodologies.
+
+## Acknowledgments
+The Acknowledgments section acknowledges the contributions of researchers, authors, and data sources that have informed the assignment. It recognizes their valuable insights and the role they play in advancing data-driven analysis.
+
+## License
+The License section states the licensing terms for the assignment and any accompanying code or data. It provides information on how the content can be shared, used, and adapted while giving appropriate credit to the original source.
+
+# THEORITICAL EXPLAINATION
 
 **Understanding the Stereotype:**
 The stereotype that females are bad drivers has persisted in various forms over the years, often perpetuated through jokes, media portrayals, and anecdotal experiences. However, it is crucial to recognize that this belief is unfounded and rooted in biases and misconceptions. Stereotypes like these only serve to perpetuate discrimination and hinder progress toward gender equality.
@@ -86,8 +96,6 @@ Certainly! Let's delve into further detail on the factors that contribute to dri
 By understanding and addressing these factors, both individual drivers and society as a whole can contribute to safer roads and improved driving experiences for everyone. It is important to continuously educate ourselves, practice safe driving habits, and be considerate of other road users to promote a culture of road safety.
 
 ## Female Drivers: Debunking Misconceptions
-
-![Female Drivers](https://example.com/female-drivers-image.jpg)
 
 ### Introduction
 
@@ -141,14 +149,6 @@ For further reading on the topic, please refer to the following resources:
 2. [Gender Differences in Driving: A Comprehensive Study](https://example.com/article2)
 3. [Addressing Gender Bias in the Perception of Driving Skills](https://example.com/article3)
 
-## Additional Resources
-The Additional Resources section provides recommendations for further reading, including scholarly articles, statistical data sources, and relevant research papers, to encourage continued exploration of the topic using data science methodologies.
-
-## Acknowledgments
-The Acknowledgments section acknowledges the contributions of researchers, authors, and data sources that have informed the assignment. It recognizes their valuable insights and the role they play in advancing data-driven analysis.
-
-## License
-The License section states the licensing terms for the assignment and any accompanying code or data. It provides information on how the content can be shared, used, and adapted while giving appropriate credit to the original source.
 
 **Note:  This README.md file provides a comprehensive outline specifically tailored for a data science-focused assignment by Musharraf Raza Khan | 52024 DO NOT COPY**
 
