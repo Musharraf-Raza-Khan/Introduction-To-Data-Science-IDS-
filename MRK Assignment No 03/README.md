@@ -144,9 +144,7 @@ In conclusion, the misconception that females are bad drivers is baseless and sh
 
 For further reading on the topic, please refer to the following resources:
 
-1. [Debunking the Myth: Are Women Really Worse Drivers than Men?](https
-
-://example.com/article1)
+1. [Debunking the Myth: Are Women Really Worse Drivers than Men?](https://example.com/article1)
 2. [Gender Differences in Driving: A Comprehensive Study](https://example.com/article2)
 3. [Addressing Gender Bias in the Perception of Driving Skills](https://example.com/article3)
 
