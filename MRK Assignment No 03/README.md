@@ -56,7 +56,7 @@ The Acknowledgments section acknowledges the contributions of researchers, autho
 ## License
 The License section states the licensing terms for the assignment and any accompanying code or data. It provides information on how the content can be shared, used, and adapted while giving appropriate credit to the original source.
 
-# THEORITICAL EXPLAINATION
+# Theoritical Explaination
 
 **Understanding the Stereotype:**
 The stereotype that females are bad drivers has persisted in various forms over the years, often perpetuated through jokes, media portrayals, and anecdotal experiences. However, it is crucial to recognize that this belief is unfounded and rooted in biases and misconceptions. Stereotypes like these only serve to perpetuate discrimination and hinder progress toward gender equality.
