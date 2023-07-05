@@ -18,7 +18,7 @@ The assignment explores objective evidence, analyzes statistical data, and inves
 - [Additional Resources](#additional-resources)
 - [Acknowledgments](#acknowledgments)
 - [License](#license)
-- [THEORITICAL PART](#THEORITICAL PART)
+- [THEORITICAL EXPLAINATION](#THEORITICAL EXPLAINATION)
 ## Introduction
 The introduction provides an overview of the assignment's objective and explains how data science methodologies will be employed to challenge the stereotype that females are bad at driving.
 
