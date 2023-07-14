@@ -1202,11 +1202,7 @@ By considering multiple variables simultaneously, multivariate analysis allows f
 
 Data condensation, it could be understood as a process of reducing the dimensionality or size of a dataset while preserving important information or patterns. This can be achieved through techniques such as feature selection, feature extraction, or data compression. The goal of data condensation is to create a more manageable or concise representation of the data without losing critical information.
 
-However, it's important to note that "condensation" is not a widely recognized term in the field of data science, and the specific techniques and approaches used for dimensionality reduction or data compression may have different names, such as Principal Component Analysis (PCA), Singular Value Decomposition (SVD), or various feature selection algorithms.
-
-In the context of code, "condensation" is not a commonly used term or concept. It does not have a specific meaning or technique associated with it in programming or software development.
-
-However, if you are referring to making code more concise, readable, or efficient, there are several techniques and best practices that developers follow. Some of these techniques include:
+However there are several techniques and best practices that developers follow. Some of these techniques include:
 
 **1. Code Refactoring:** Refactoring involves restructuring or reorganizing existing code to improve its design, readability, and maintainability without changing its external behavior. This may include removing duplicated code, simplifying complex logic, and optimizing performance.
 
